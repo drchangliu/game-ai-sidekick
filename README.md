@@ -1,1 +1,1 @@
-# game-ai-sidekick
+# Game AI Sidekick 
