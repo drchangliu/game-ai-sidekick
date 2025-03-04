@@ -497,6 +497,7 @@ class GameState:
 
                 log_game(self.db, {
                     "llm_guesses": self.total_llm_guesses,
+                    "guesses": [word.guessed_word for word in self.words if word.locked],
                     "success": self.success,
                     "actual_word": self.actual_word,
                     "num_guesses": self.num_of_tries(),
