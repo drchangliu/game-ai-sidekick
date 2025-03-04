@@ -18,7 +18,7 @@ from classes.LetterCell import Feedback
 from classes.Solver import Solver
 from classes.Word import Word
 from constants import *
-from firebase import add_retries, get_db, initialize_firebase
+from firebase import get_db, initialize_firebase, log_game
 from utils.calculate_dynamic_widths import calculate_dynamic_widths
 from utils.prompts import generate_guess_reasoning, generate_messages
 from visuals.config_screen import config_screen
@@ -92,7 +92,7 @@ class GameState:
             except:
                 self.api_key_valid = False
 
-        self.game_retries = 0
+        self.total_llm_guesses = []
         self.ai_loading = False
         self.error_message = ""
         self.error_message_visible = False
@@ -180,7 +180,7 @@ class GameState:
             ) for i in range(self.num_guesses)
         ]
 
-        self.game_retries = 0
+        self.total_llm_guesses = []
         self.solver_active = False
         self.solver.reset()
 
@@ -288,11 +288,19 @@ class GameState:
                 reasons = self.solver.reason_guess(completion_message)
 
                 if len(reasons) > 0 and calls < MAX_LLM_CONTINUOUS_CALLS and self.num_lies == 0:
-                    self.game_retries += 1
                     messages.append(generate_guess_reasoning(reasons))
                     self.enter_word_from_ai(messages, calls + 1)
                 else:
                     print(org_response)
+                    self.total_llm_guesses.append({
+                        "guess": completion_message.upper(),
+                        "retries": calls,
+                        "accepted": None,
+                        "previous_guesses": [
+                            word.guessed_word for word in self.words if word.locked
+                        ],
+                        "step": self.num_of_tries() + 1,
+                    })
                     self.enter_word_from_solver(
                         completion_message, check=(not self.show_window))
             else:
@@ -460,8 +468,19 @@ class GameState:
         # function to check word after time
         def check_correct():
             current_word = self.words[self.current_word_index]
+            guessed_word = current_word.guessed_word
             word_feedback = current_word.get_feedback()
             internal_word_feedback = current_word.get_internal_feedback()
+
+            update = False
+            for i in reversed(range(len(self.total_llm_guesses))):
+                llm_guess = self.total_llm_guesses[i]
+                if llm_guess["accepted"] == None:
+                    if llm_guess["guess"] == guessed_word and not update:
+                        llm_guess["accepted"] = True
+                        update = True
+                    else:
+                        llm_guess["accepted"] = False
 
             self.solver.update_guesses(
                 current_word.guessed_word, internal_word_feedback)
@@ -469,20 +488,21 @@ class GameState:
                 current_word.guessed_word, word_feedback
             )
 
-            if self.words[self.current_word_index].word_complete():
-                if self.game_retries != 0 and self.db:
-                    threading.Thread(
-                        target=add_retries, args=(self.db, self.game_retries)
-                    ).start()
-                self.success = True
+            if self.words[self.current_word_index].word_complete() or \
+                    self.num_of_tries() == self.num_guesses:
                 self.status = Status.end
 
-            elif self.num_of_tries() == self.num_guesses:
-                if self.game_retries != 0 and self.db:
-                    threading.Thread(
-                        target=add_retries, args=(self.db, self.game_retries)
-                    ).start()
-                self.status = Status.end
+                if self.words[self.current_word_index].word_complete():
+                    self.success = True
+
+                log_game(self.db, {
+                    "llm_guesses": self.total_llm_guesses,
+                    "success": self.success,
+                    "actual_word": self.actual_word,
+                    "num_guesses": self.num_of_tries(),
+                    "max_guesses": self.num_guesses,
+                    "num_lies": self.num_lies,
+                })
 
             else:
                 self.current_word_index += 1

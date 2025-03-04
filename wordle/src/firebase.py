@@ -16,12 +16,9 @@ def get_db():
     return firestore.client()
 
 
-def add_retries(db, retries):
+def log_game(db, game_dict):
     est = pytz.timezone('US/Eastern')
     time = datetime.now(est)
 
-    doc_ref = db.collection('game_retries').document()
-    doc_ref.set({
-        'count': retries,
-        'date': time
-    })
+    doc_ref = db.collection('games').document()
+    doc_ref.set({**game_dict, 'date': time})
