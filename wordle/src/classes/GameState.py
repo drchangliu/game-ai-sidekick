@@ -495,15 +495,16 @@ class GameState:
                 if self.words[self.current_word_index].word_complete():
                     self.success = True
 
-                log_game(self.db, {
-                    "llm_guesses": self.total_llm_guesses,
-                    "guesses": [word.guessed_word for word in self.words if word.locked],
-                    "success": self.success,
-                    "actual_word": self.actual_word,
-                    "num_guesses": self.num_of_tries(),
-                    "max_guesses": self.num_guesses,
-                    "num_lies": self.num_lies,
-                })
+                if self.db:
+                    log_game(self.db, {
+                        "llm_guesses": self.total_llm_guesses,
+                        "guesses": [word.guessed_word for word in self.words if word.locked],
+                        "success": self.success,
+                        "actual_word": self.actual_word,
+                        "num_guesses": self.num_of_tries(),
+                        "max_guesses": self.num_guesses,
+                        "num_lies": self.num_lies,
+                    })
 
             else:
                 self.current_word_index += 1
