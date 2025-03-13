@@ -286,6 +286,7 @@ class GameState:
 
             if len(completion_message) == WORD_LENGTH:
                 reasons = self.solver.reason_guess(completion_message)
+                messages.append({"role": "assistant", "content": org_response})
 
                 if len(reasons) > 0 and calls < MAX_LLM_CONTINUOUS_CALLS and self.num_lies == 0:
                     messages.append(generate_guess_reasoning(reasons))
