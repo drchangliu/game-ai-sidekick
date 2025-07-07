@@ -50,7 +50,7 @@ LETTERS = [
 MIN_NUM_GUESSES = 5
 MIN_LETTERS_TO_ADD = 3
 
-LLM_MODEL: ChatModel = "gpt-4o"
+LLM_MODEL: ChatModel = "gpt-4.1"
 MAX_LLM_CONTINUOUS_CALLS = 5
 
 LLM_PLATFORM = "openai"
