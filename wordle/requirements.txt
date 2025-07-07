@@ -1,5 +1,5 @@
-pygame==2.5.2
-pytest==7.4.0
+pygame
+pytest
 pyinstaller
 openai
 google-genai
