@@ -107,3 +107,4 @@ Frameworks or tools include Visual Studio Code, Git, Python, Pip, and Pygame.
 - For Windows, you can add `set OPENAI_API_KEY=your-api-key` or `set GEMINI_API_KEY=your-api-key`
 - Make sure to restart your terminal after adding the key
 - Troubleshooting: visit [Google Gemini](https://ai.google.dev/gemini-api/docs/api-key) or [OpenAI](https://platform.openai.com/docs/quickstart)
+- The current release uses gpt-4.1 and gemini-2.0-flash.
