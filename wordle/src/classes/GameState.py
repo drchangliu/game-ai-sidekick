@@ -10,6 +10,7 @@ from firebase_admin.firestore import firestore
 from google import genai
 from openai import OpenAI, OpenAIError
 from openai.types.chat import ChatCompletionMessageParam
+from ollama import chat, ChatResponse
 
 from assets.guess_words import GUESS_WORDS
 from classes.Button import Button
@@ -272,12 +273,20 @@ class GameState:
                     completion.choices[0].message.content
                 )
 
+            elif self.llm_platform == "ollama":
+                completion: ChatResponse = chat(
+                    model=OLLAMA_MODEL,
+                    messages=messages
+                )
+                org_response = str(completion.message.content)
+
             if LOG_LLM_MESSAGES:
                 with open("./llm_chat_log.txt", "a") as f:
                     f.write("{" + org_response + "}" + "\n")
                     f.close()
 
-            response = org_response.replace("Guess: ", "")
+            response = org_response.replace("Guess: ", "").replace(
+                "My first guess is: ", "").replace("Okay, let's begin!", "")
             response = re.search(r'\b\w{5}\b', response)
             if response:
                 completion_message = response.group(0)

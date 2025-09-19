@@ -27,11 +27,11 @@ def generate_buttons():
             425, cell_width, cell_width
         ), 0, 3, (58, 58, 60), str(i), 65, (255, 255, 255)))
 
-    for i, llm in enumerate(["openai", "gemini"]):
+    for i, llm in enumerate(["openai", "gemini", "ollama"]):
         buttons.append(Button(pygame.Rect(
-            100 + (total_width / 2 + 8) * i,
-            600, total_width / 2 - 4, cell_width
-        ), 0, 3, (58, 58, 60), llm.upper(), 65, (255, 255, 255)))
+            100 + (total_width / 3 + 3) * i,
+            600, total_width / 3 - 9, cell_width
+        ), 0, 3, (58, 58, 60), llm.upper(), 40, (255, 255, 255)))
 
     buttons.append(Button(pygame.Rect(100, 700, total_width, 60),
                    0, 3, (83, 141, 78), "Play", 65, (255, 255, 255)))
@@ -47,8 +47,8 @@ def config_screen(game: 'GameState', **kwargs):
 
     lie_buttons: list[Button] = kwargs['buttons'][0:6]
     guess_buttons: list[Button] = kwargs['buttons'][6:10]
-    llm_buttons: list[Button] = kwargs['buttons'][10:12]
-    play_button: Button = kwargs['buttons'][12]
+    llm_buttons: list[Button] = kwargs['buttons'][10:13]
+    play_button: Button = kwargs['buttons'][13]
 
     title = "CONFIG"
     total_width = SCREEN_WIDTH - 80

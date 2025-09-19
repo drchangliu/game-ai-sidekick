@@ -6,3 +6,4 @@ google-genai
 wandb
 firebase-admin
 pytz
+ollama
