@@ -2,6 +2,7 @@ import os
 import random
 import re
 import threading
+import requests
 from enum import Enum
 from threading import Timer
 
@@ -90,6 +91,14 @@ class GameState:
                     api_key=os.getenv("GEMINI_API_KEY", default="")
                 )
                 self.api_key_valid = True
+            except:
+                self.api_key_valid = False
+        elif self.llm_platform == "grok":
+            try:
+                self.openrouter_key = os.getenv("OPENROUTER_API_KEY", "")
+                self.openrouter_model = os.getenv("OPENROUTER_MODEL", "x-ai/grok-4-fast:free")
+                if self.openrouter_key:
+                    self.api_key_valid = True
             except:
                 self.api_key_valid = False
 
@@ -273,6 +282,25 @@ class GameState:
                     completion.choices[0].message.content
                 )
 
+            elif self.llm_platform == "grok":
+                headers = {
+                    "Authorization": f"Bearer {self.openrouter_key}",
+                    "Content-Type": "application/json",
+                    "HTTP-Referer": "http://localhost",
+                    "X-Title": "Wordle-LLM"
+                }
+                payload = {
+                    "model": self.openrouter_model,
+                    "messages": messages,
+                    "max_tokens": 50,
+                    "temperature": 0.3
+                }
+                r = requests.post("https://openrouter.ai/api/v1/chat/completions",
+                                headers=headers, json=payload, timeout=60)
+                r.raise_for_status()
+                data = r.json()
+                org_response = data["choices"][0]["message"]["content"]
+
             elif self.llm_platform == "ollama":
                 completion: ChatResponse = chat(
                     model=OLLAMA_MODEL,
@@ -340,6 +368,11 @@ class GameState:
                     api_key=os.getenv("GEMINI_API_KEY", default="")
                 )
                 self.api_key_valid = True
+            elif llm == "grok":
+                self.openrouter_key = os.getenv("OPENROUTER_API_KEY", "")
+                self.openrouter_model = os.getenv("OPENROUTER_MODEL", "x-ai/grok-4-fast:free")
+                self.api_key_valid = bool(self.openrouter_key)
+
         except:
             self.api_key_valid = False
 
