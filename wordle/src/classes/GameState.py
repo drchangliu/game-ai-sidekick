@@ -93,6 +93,9 @@ class GameState:
             except:
                 self.api_key_valid = False
 
+        if self.llm_platform == "ollama":
+            self.api_key_valid = True
+
         self.total_llm_guesses = []
         self.ai_loading = False
         self.error_message = ""
@@ -330,6 +333,7 @@ class GameState:
         self.ai_loading = False
 
     def set_llm_platform(self, llm: str):
+        self.api_key_valid = True  # reset api key valid
         self.llm_platform = llm
         try:
             if llm == "openai":
@@ -339,6 +343,8 @@ class GameState:
                 self.gemini_client = genai.Client(
                     api_key=os.getenv("GEMINI_API_KEY", default="")
                 )
+                self.api_key_valid = True
+            elif llm == "ollama":
                 self.api_key_valid = True
         except:
             self.api_key_valid = False
