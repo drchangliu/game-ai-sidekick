@@ -1,0 +1,67 @@
+{
+  "num_runs": 10,
+  "LLM_MODEL": "gemma3:latest",
+  "MAX_LLM_CONTINUOUS_CALLS": 5,
+  "games": [
+    {
+      "run_id": 1,
+      "average_game_completion": 2.3333333333333335,
+      "tries": 6,
+      "success": false
+    },
+    {
+      "run_id": 2,
+      "average_game_completion": 0.8333333333333334,
+      "tries": 6,
+      "success": false
+    },
+    {
+      "run_id": 3,
+      "average_game_completion": 2.0,
+      "tries": 6,
+      "success": false
+    },
+    {
+      "run_id": 4,
+      "average_game_completion": 2.9166666666666665,
+      "tries": 6,
+      "success": true
+    },
+    {
+      "run_id": 5,
+      "average_game_completion": 1.25,
+      "tries": 6,
+      "success": false
+    },
+    {
+      "run_id": 6,
+      "average_game_completion": 1.7,
+      "tries": 5,
+      "success": true
+    },
+    {
+      "run_id": 7,
+      "average_game_completion": 1.0833333333333333,
+      "tries": 6,
+      "success": false
+    },
+    {
+      "run_id": 8,
+      "average_game_completion": 1.3333333333333333,
+      "tries": 6,
+      "success": false
+    },
+    {
+      "run_id": 9,
+      "average_game_completion": 2.0,
+      "tries": 6,
+      "success": false
+    },
+    {
+      "run_id": 10,
+      "average_game_completion": 1.6666666666666667,
+      "tries": 6,
+      "success": false
+    }
+  ]
+}
