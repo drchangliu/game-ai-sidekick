@@ -93,6 +93,10 @@ class GameState:
             except:
                 self.api_key_valid = False
 
+        # For Ollama, we assume it's available if the platform is set
+        if self.llm_platform == "ollama":
+            self.api_key_valid = True
+
         self.total_llm_guesses = []
         self.ai_loading = False
         self.error_message = ""
@@ -339,6 +343,9 @@ class GameState:
                 self.gemini_client = genai.Client(
                     api_key=os.getenv("GEMINI_API_KEY", default="")
                 )
+                self.api_key_valid = True
+            elif llm == "ollama":
+                # assume ollama is available if selected
                 self.api_key_valid = True
         except:
             self.api_key_valid = False
