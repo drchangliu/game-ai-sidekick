@@ -50,10 +50,12 @@ LETTERS = [
 MIN_NUM_GUESSES = 5
 MIN_LETTERS_TO_ADD = 3
 
-LLM_MODEL: ChatModel = "gpt-4.1"
+LLM_MODEL: ChatModel = "gpt-3.5-turbo"
 OLLAMA_MODEL = "gemma3:latest"
+OPENROUTER_MODEL = "openai/gpt-oss-20b:free"
+#OPENROUTER_API_KEY = ""
 MAX_LLM_CONTINUOUS_CALLS = 5
 
-LLM_PLATFORM = "openai"
+LLM_PLATFORM = "openrouter"
 LOG_LLM_MESSAGES = False
 ERROR_MESSAGE_VISIBLE_TIME = 5

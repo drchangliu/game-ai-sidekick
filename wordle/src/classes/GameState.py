@@ -78,7 +78,18 @@ class GameState:
         self.ai_client: OpenAI | None = None
         if self.llm_platform == "openai":
             try:
-                self.ai_client = OpenAI()
+                self.ai_client = OpenAI(
+                    api_key=os.getenv("OPENAI_API_KEY", default="")
+                )
+                self.api_key_valid = True
+            except OpenAIError:
+                self.api_key_valid = False
+        elif self.llm_platform == "openrouter":
+            try:
+                self.ai_client = OpenAI(
+                    base_url="https://openrouter.ai/api/v1",
+                    api_key=OPENROUTER_API_KEY
+                )
                 self.api_key_valid = True
             except OpenAIError:
                 self.api_key_valid = False
@@ -273,6 +284,23 @@ class GameState:
                     completion.choices[0].message.content
                 )
 
+            elif self.llm_platform == "openrouter":
+                if not self.ai_client:
+                    return
+
+                completion = self.ai_client.chat.completions.create(
+                    extra_headers={
+                        "HTTP-Referer": "https://github.com/tm033520/game-ai-sidekick",
+                        "X-Title": "Wordle AI Sidekick",
+                    },
+                    extra_body={},
+                    model=OPENROUTER_MODEL,
+                    messages=messages,
+                )
+                org_response = str(
+                    completion.choices[0].message.content
+                )
+
             elif self.llm_platform == "ollama":
                 completion: ChatResponse = chat(
                     model=OLLAMA_MODEL,
@@ -333,7 +361,15 @@ class GameState:
         self.llm_platform = llm
         try:
             if llm == "openai":
-                self.ai_client = OpenAI()
+                self.ai_client = OpenAI(
+                    api_key=os.getenv("OPENAI_API_KEY", default="")
+                )
+                self.api_key_valid = True
+            elif llm == "openrouter":
+                self.ai_client = OpenAI(
+                    base_url="https://openrouter.ai/api/v1",
+                    api_key=OPENROUTER_API_KEY
+                )
                 self.api_key_valid = True
             elif llm == "gemini":
                 self.gemini_client = genai.Client(
