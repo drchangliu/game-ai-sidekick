@@ -75,6 +75,8 @@ class GameState:
         self.was_valid_guess = False
 
         self.llm_platform = LLM_PLATFORM
+        
+        
         self.ai_client: OpenAI | None = None
         if self.llm_platform == "openai":
             try:
@@ -92,7 +94,19 @@ class GameState:
                 self.api_key_valid = True
             except:
                 self.api_key_valid = False
+        
+        self.deepseek_client: OpenAI | None = None
+        if self.llm_platform == "deepseek":
+            try:
+                self.deepseek_client = OpenAI(
+                    api_key=os.getenv("DEEPSEEK_API_KEY", default=""),
+                    base_url="https://api.deepseek.com"
+                )
+                self.api_key_valid = True
+            except OpenAIError:
+                self.api_key_valid = False
 
+    
         if self.llm_platform == "ollama":
             self.api_key_valid = True
 
@@ -276,6 +290,18 @@ class GameState:
                     completion.choices[0].message.content
                 )
 
+            elif self.llm_platform == "deepseek":
+                if not self.deepseek_client:
+                    return
+
+                completion = self.deepseek_client.chat.completions.create(
+                    model=DEEPSEEK_MODEL,
+                    messages=messages,
+                )
+                org_response = str(
+                    completion.choices[0].message.content
+                )
+
             elif self.llm_platform == "ollama":
                 completion: ChatResponse = chat(
                     model=OLLAMA_MODEL,
@@ -345,6 +371,12 @@ class GameState:
                 )
                 self.api_key_valid = True
             elif llm == "ollama":
+                self.api_key_valid = True
+            elif llm == "deepseek":
+                self.deepseek_client = OpenAI(
+                    api_key=os.getenv("DEEPSEEK_API_KEY", default=""),
+                    base_url="https://api.deepseek.com"
+                )
                 self.api_key_valid = True
         except:
             self.api_key_valid = False

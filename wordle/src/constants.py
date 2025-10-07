@@ -54,6 +54,8 @@ LLM_MODEL: ChatModel = "gpt-4.1"
 OLLAMA_MODEL = "gemma3:latest"
 MAX_LLM_CONTINUOUS_CALLS = 5
 
+DEEPSEEK_MODEL = "deepseek-chat"
+
 LLM_PLATFORM = "openai"
 LOG_LLM_MESSAGES = False
 ERROR_MESSAGE_VISIBLE_TIME = 5
