@@ -42,6 +42,8 @@ class GameState:
     def __init__(self, show_window: bool = True, disable_animations: bool = False, logging: bool = True):
         self.db: firestore.Client | None = None
 
+        self.api_key_valid: bool = True
+
         if logging:
             try:
                 initialize_firebase()
@@ -101,6 +103,8 @@ class GameState:
                     self.api_key_valid = True
             except:
                 self.api_key_valid = False
+        elif self.llm_platform == "ollama":
+            self.api_key_valid = True
 
         self.total_llm_guesses = []
         self.ai_loading = False
@@ -372,6 +376,8 @@ class GameState:
                 self.openrouter_key = os.getenv("OPENROUTER_API_KEY", "")
                 self.openrouter_model = os.getenv("OPENROUTER_MODEL", "x-ai/grok-4-fast:free")
                 self.api_key_valid = bool(self.openrouter_key)
+            elif llm == "ollama":
+                self.api_key_valid = True
 
         except:
             self.api_key_valid = False
