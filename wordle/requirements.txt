@@ -7,3 +7,7 @@ wandb
 firebase-admin
 pytz
 ollama
+python-dotenv
+requests
+pandas
+tqdm
