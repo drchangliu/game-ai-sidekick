@@ -20,7 +20,7 @@ class LLMConfig:
 
 def _read_env() -> LLMConfig:
     provider = os.getenv("LLM_PROVIDER", "ollama").strip().lower()
-    model = os.getenv("LLM_MODEL", "llama3.1:8b").strip()
+    model = os.getenv("LLM_MODEL", "llama3.2:3b").strip()
     temperature = float(os.getenv("LLM_TEMPERATURE", "0.2"))
     max_tokens = int(os.getenv("LLM_MAX_TOKENS", "64"))
     return LLMConfig(

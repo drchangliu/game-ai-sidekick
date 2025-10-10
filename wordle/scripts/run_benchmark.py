@@ -46,7 +46,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--model",
-        default=os.getenv("LLM_MODEL", "llama3.1:8b"),
+        default=os.getenv("LLM_MODEL", "llama3.2:3b"),
         help="LLM model name (default: env LLM_MODEL).",
     )
     parser.add_argument(

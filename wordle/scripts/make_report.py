@@ -1,4 +1,4 @@
-# Run with: python scripts/make_report.py --summary logs/summary.csv --jsonl logs/results.jsonl --provider ollama --model llama3.1:8b --output logs/report.md
+# Run with: python scripts/make_report.py --summary logs/summary.csv --jsonl logs/results.jsonl --provider ollama --model llama3.2:3b --output logs/report.md
 from __future__ import annotations
 
 import argparse
