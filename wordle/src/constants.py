@@ -53,7 +53,6 @@ MIN_LETTERS_TO_ADD = 3
 LLM_MODEL: ChatModel = "gpt-3.5-turbo"
 OLLAMA_MODEL = "gemma3:latest"
 OPENROUTER_MODEL = "openai/gpt-oss-20b:free"
-#OPENROUTER_API_KEY = ""
 MAX_LLM_CONTINUOUS_CALLS = 5
 
 LLM_PLATFORM = "openrouter"

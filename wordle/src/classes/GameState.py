@@ -91,7 +91,7 @@ class GameState:
             try:
                 self.ai_client = OpenAI(
                     base_url="https://openrouter.ai/api/v1",
-                    api_key=OPENROUTER_API_KEY
+                    api_key=os.getenv("OPENROUTER_API_KEY", default="")
                 )
                 self.api_key_valid = True
             except OpenAIError:
@@ -403,7 +403,7 @@ class GameState:
             elif llm == "openrouter":
                 self.ai_client = OpenAI(
                     base_url="https://openrouter.ai/api/v1",
-                    api_key=OPENROUTER_API_KEY
+                    api_key=os.getenv("OPENROUTER_API_KEY", default="")
                 )
                 self.api_key_valid = True
             elif llm == "gemini":
