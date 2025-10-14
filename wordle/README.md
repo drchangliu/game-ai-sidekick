@@ -1,6 +1,6 @@
 # Project Python
 
-The purpose of this project is to remake the popular web game, Wordle, in Python.
+The purpose of this project is to remake the popular word game, Wordle and its variant Fibble, in Python.
 
 ## Team Information
 
