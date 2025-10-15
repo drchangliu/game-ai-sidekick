@@ -81,7 +81,18 @@ class GameState:
         self.ai_client: OpenAI | None = None
         if self.llm_platform == "openai":
             try:
-                self.ai_client = OpenAI()
+                self.ai_client = OpenAI(
+                    api_key=os.getenv("OPENAI_API_KEY", default="")
+                )
+                self.api_key_valid = True
+            except OpenAIError:
+                self.api_key_valid = False
+        elif self.llm_platform == "openrouter":
+            try:
+                self.ai_client = OpenAI(
+                    base_url="https://openrouter.ai/api/v1",
+                    api_key=os.getenv("OPENROUTER_API_KEY", default="")
+                )
                 self.api_key_valid = True
             except OpenAIError:
                 self.api_key_valid = False
@@ -95,12 +106,17 @@ class GameState:
                 self.api_key_valid = True
             except:
                 self.api_key_valid = False
-        elif self.llm_platform == "grok":
+        # Grok platform (uses OpenRouter API with Grok models, separate API key)
+        self.grok_key: str | None = None
+        self.grok_model: str | None = None
+        if self.llm_platform == "grok":
             try:
-                self.openrouter_key = os.getenv("OPENROUTER_API_KEY", "")
-                self.openrouter_model = os.getenv("OPENROUTER_MODEL", "x-ai/grok-4-fast:free")
-                if self.openrouter_key:
+                self.grok_key = os.getenv("GROK_API_KEY", "")
+                self.grok_model = os.getenv("GROK_MODEL", "x-ai/grok-4-fast:free")
+                if self.grok_key:
                     self.api_key_valid = True
+                else:
+                    self.api_key_valid = False
             except:
                 self.api_key_valid = False
         elif self.llm_platform == "ollama":
@@ -289,15 +305,34 @@ class GameState:
                     completion.choices[0].message.content
                 )
 
+            elif self.llm_platform == "openrouter":
+                if not self.ai_client:
+                    return
+
+                completion = self.ai_client.chat.completions.create(
+                    extra_headers={
+                        "HTTP-Referer": "https://github.com/tm033520/game-ai-sidekick",
+                        "X-Title": "Wordle AI Sidekick",
+                    },
+                    extra_body={},
+                    model=OPENROUTER_MODEL,
+                    messages=messages,
+                )
+                org_response = str(
+                    completion.choices[0].message.content
+                )
             elif self.llm_platform == "grok":
+                if not self.grok_key:
+                    return
+                    
                 headers = {
-                    "Authorization": f"Bearer {self.openrouter_key}",
+                    "Authorization": f"Bearer {self.grok_key}",
                     "Content-Type": "application/json",
-                    "HTTP-Referer": "http://localhost",
-                    "X-Title": "Wordle-LLM"
+                    "HTTP-Referer": "https://github.com/tm033520/game-ai-sidekick",
+                    "X-Title": "Wordle AI Sidekick"
                 }
                 payload = {
-                    "model": self.openrouter_model,
+                    "model": self.grok_model,
                     "messages": messages,
                     "max_tokens": 50,
                     "temperature": 0.3
@@ -369,7 +404,15 @@ class GameState:
         self.llm_platform = llm
         try:
             if llm == "openai":
-                self.ai_client = OpenAI()
+                self.ai_client = OpenAI(
+                    api_key=os.getenv("OPENAI_API_KEY", default="")
+                )
+                self.api_key_valid = True
+            elif llm == "openrouter":
+                self.ai_client = OpenAI(
+                    base_url="https://openrouter.ai/api/v1",
+                    api_key=os.getenv("OPENROUTER_API_KEY", default="")
+                )
                 self.api_key_valid = True
             elif llm == "gemini":
                 self.gemini_client = genai.Client(
@@ -377,9 +420,9 @@ class GameState:
                 )
                 self.api_key_valid = True
             elif llm == "grok":
-                self.openrouter_key = os.getenv("OPENROUTER_API_KEY", "")
-                self.openrouter_model = os.getenv("OPENROUTER_MODEL", "x-ai/grok-4-fast:free")
-                self.api_key_valid = bool(self.openrouter_key)
+                self.grok_key = os.getenv("GROK_API_KEY", "")
+                self.grok_model = os.getenv("GROK_MODEL", "x-ai/grok-4-fast:free")
+                self.api_key_valid = bool(self.grok_key)
             elif llm == "ollama":
                 self.api_key_valid = True
 
