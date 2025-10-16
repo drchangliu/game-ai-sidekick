@@ -27,13 +27,22 @@ def generate_buttons():
             425, cell_width, cell_width
         ), 0, 3, (58, 58, 60), str(i), 65, (255, 255, 255)))
 
-    for i, llm in enumerate(["openai", "gemini", "ollama", "deepseek"]):
-        buttons.append(Button(pygame.Rect(
-            30 + (total_width / 3 + 3) * i,
-            600, total_width / 3 - 9, cell_width
-        ), 0, 3, (58, 58, 60), llm.upper(), 40, (255, 255, 255)))
+ 
+    for i, llm in enumerate(["openai", "ollama", "openrouter", "gemini", "grok", "deepseek"]):
+        if i < 3:
+            buttons.append(Button(pygame.Rect(
+                100 + (total_width / 3 + 3) * i,
+                585, total_width / 3 - 9, cell_width
+            ), 0, 3, (58, 58, 60), llm.upper(), 22, (255, 255, 255)))
+        else:
+            buttons.append(Button(pygame.Rect(
+                100 + (total_width / 3 + 3) * (i - 3),
+                655, total_width / 3 - 9, cell_width
+            ), 0, 3, (58, 58, 60), llm.upper(), 22, (255, 255, 255)))
 
-    buttons.append(Button(pygame.Rect(100, 700, total_width, 60),
+    # place the Play button below the LLM buttons so it doesn't overlap the second row
+    play_y = 650 + cell_width + 20
+    buttons.append(Button(pygame.Rect(100, play_y, total_width, 60),
                    0, 3, (83, 141, 78), "Play", 65, (255, 255, 255)))
 
     return buttons
@@ -47,8 +56,8 @@ def config_screen(game: 'GameState', **kwargs):
 
     lie_buttons: list[Button] = kwargs['buttons'][0:6]
     guess_buttons: list[Button] = kwargs['buttons'][6:10]
-    llm_buttons: list[Button] = kwargs['buttons'][10:14]
-    play_button: Button = kwargs['buttons'][14]
+    llm_buttons: list[Button] = kwargs['buttons'][10:16]
+    play_button: Button = kwargs['buttons'][16]
 
     title = "CONFIG"
     total_width = SCREEN_WIDTH - 80

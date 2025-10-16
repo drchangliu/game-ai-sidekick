@@ -50,6 +50,24 @@ LETTERS = [
 MIN_NUM_GUESSES = 5
 MIN_LETTERS_TO_ADD = 3
 
+# LLM Configuration
+# Change these to use different models for each platform
+LLM_MODEL: ChatModel = "gpt-3.5-turbo"  # OpenAI model
+OLLAMA_MODEL = "gemma3:latest"  # Ollama model
+
+# OpenRouter Configuration
+# To use a different OpenRouter model, change the model name below
+# Browse available models at: https://openrouter.ai/models
+# Example models:
+#   - "nvidia/nemotron-nano-9b-v2:free" (free, fast)
+#   - "openai/gpt-4o-mini" (paid, high quality)
+#   - "anthropic/claude-3.5-sonnet" (paid, very high quality)
+OPENROUTER_MODEL = "nvidia/nemotron-nano-9b-v2:free"
+
+# To use OpenRouter, set your API key as an environment variable:
+# export OPENROUTER_API_KEY="sk-or-v1-your-key-here"
+# Get your API key at: https://openrouter.ai/keys
+
 LLM_MODEL: ChatModel = "gpt-4.1"
 OLLAMA_MODEL = "gemma3:latest"
 MAX_LLM_CONTINUOUS_CALLS = 5
