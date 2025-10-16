@@ -83,7 +83,18 @@ class GameState:
         self.ai_client: OpenAI | None = None
         if self.llm_platform == "openai":
             try:
-                self.ai_client = OpenAI()
+                self.ai_client = OpenAI(
+                    api_key=os.getenv("OPENAI_API_KEY", default="")
+                )
+                self.api_key_valid = True
+            except OpenAIError:
+                self.api_key_valid = False
+        elif self.llm_platform == "openrouter":
+            try:
+                self.ai_client = OpenAI(
+                    base_url="https://openrouter.ai/api/v1",
+                    api_key=os.getenv("OPENROUTER_API_KEY", default="")
+                )
                 self.api_key_valid = True
             except OpenAIError:
                 self.api_key_valid = False
@@ -366,6 +377,44 @@ class GameState:
                 org_response = str(
                     completion.choices[0].message.content
                 )
+
+            elif self.llm_platform == "openrouter":
+                if not self.ai_client:
+                    return
+
+                completion = self.ai_client.chat.completions.create(
+                    extra_headers={
+                        "HTTP-Referer": "https://github.com/tm033520/game-ai-sidekick",
+                        "X-Title": "Wordle AI Sidekick",
+                    },
+                    extra_body={},
+                    model=OPENROUTER_MODEL,
+                    messages=messages,
+                )
+                org_response = str(
+                    completion.choices[0].message.content
+                )
+            elif self.llm_platform == "grok":
+                if not self.grok_key:
+                    return
+                    
+                headers = {
+                    "Authorization": f"Bearer {self.grok_key}",
+                    "Content-Type": "application/json",
+                    "HTTP-Referer": "https://github.com/tm033520/game-ai-sidekick",
+                    "X-Title": "Wordle AI Sidekick"
+                }
+                payload = {
+                    "model": self.grok_model,
+                    "messages": messages,
+                    "max_tokens": 50,
+                    "temperature": 0.3
+                }
+                r = requests.post("https://openrouter.ai/api/v1/chat/completions",
+                                headers=headers, json=payload, timeout=60)
+                r.raise_for_status()
+                data = r.json()
+                org_response = data["choices"][0]["message"]["content"]
 
             elif self.llm_platform == "ollama":
                 completion: ChatResponse = chat(
