@@ -1,0 +1,2069 @@
+pygame 2.6.1 (SDL 2.28.4, Python 3.13.0)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Firebase logging disabled
+Starting run 1
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word and covers several potential letters.
+
+CLUMP
+Reason: Eliminated common letters and focused on less frequent consonants.
+HOLES
+Reason: The ‘L’ is present and in the correct spot.
+WEEDS
+Reason: The word must contain 'H', 'E', and 'S', and I'm prioritizing those letters in a plausible arrangement.
+SHELF
+
+Reason: I’m prioritizing ‘H’, ‘E’, and ‘L’ based on the feedback. I’m building around those letters within the available valid letters.
+SHELF
+Reason: The feedback indicated ‘S’, ‘H’, ‘E’, and ‘L’ are in the word and in the correct positions.
+Average game completion: 2.0 / 5
+Average tries: 6.0
+Average success: 0.0
+
+Starting run 2
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word and covers several common letters.
+PROXY
+Reason: The 'R' was correct and in the correct position. The 'Y' is present in the word.
+CRESS
+Reason: The 'R' is correct and in the correct position.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+CREED
+Reason: The ‘R’ and ‘E’ were correct from previous feedback. ‘D’ was added after the last feedback. ‘S’ was incorrect, and ‘C’ was incorrect.
+Average game completion: 2.5 / 5
+Average tries: 5.0
+Average success: 0.5
+
+Starting run 3
+Okay, let’s begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common 5-letter word with several frequent letters.
+
+QUERY
+Reason: The 'E' is present, and I'm building on that, trying to incorporate other common letters within the allowed set.
+REVERT
+Reason: The ‘E’ is present, ‘R’ is present, and ‘Y’ is not. I’m trying to build a word with common letters and patterns.
+SHREW
+Reason: The 'E' is present and in the correct position, as indicated by the previous feedback. The 'R' is present and in the correct position, as indicated by the previous feedback.
+TROPE
+Reason: The ‘E’ is present and in the correct position, ‘R’ is present but not in the correct spot, and ‘O’ is present but not in the correct spot.
+CRANE
+Reason: The ‘E’ is present and in the correct spot.
+Average game completion: 1.25 / 5
+Average tries: 5.333333333333333
+Average success: 0.3333333333333333
+
+Starting run 4
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common 5-letter word with several frequently used letters.
+
+Error: AI did not return a valid guess
+PASTE
+Reason: ‘A’ was correct and in the correct position. ‘E’ was correct and in the correct position.
+WEAVE
+Reason: The 'E' was correct in the correct position from the previous feedback. The 'A' is correct and in the correct position from the second feedback, and the 'E' is present but in the correct spot from the previous feedback.
+JUICE
+Reason: ‘A’ remains in the correct position, ‘E’ is correct, and the letters ‘Q’, ‘Y’, ‘U’, and ‘D’ have been added to account for the feedback.
+BLADE
+Reason: The 'A' and 'E' are correct and in the correct positions.
+FLAME
+Reason: The ‘A’ and ‘E’ are correct, and ‘M’ is in the correct position.
+Average game completion: 2.0833333333333335 / 5
+Average tries: 5.5
+Average success: 0.25
+
+Starting run 5
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common and relatively frequent word.
+
+QUERY
+Reason: The previous feedback indicated ‘N’ was not a possible letter for this spot. I’m trying to prioritize letters from the valid set and attempting to fill in the remaining spots.
+VERTS
+Reason: The 'R' is confirmed present and in the correct position, and the 'E' is confirmed present, I'm now trying to build a word around these elements.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+VERTEX
+Reason: Considering all feedback, “VERTEX” fulfills all the required conditions: R and E are in the correct positions, T is present, and uses the valid letters remaining.
+Error: AI did not return a valid guess
+ROUTE
+Reason: The feedback confirms that ‘T’ and ‘R’ are in the word and are in the correct positions. ‘V’ is present but not in the last spot.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+REPORT
+
+Reason: Given the extensive constraints, “REPORT” remains the only possible solution.
+Average game completion: 1.5833333333333333 / 5
+Average tries: 5.6
+Average success: 0.2
+
+Starting run 6
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word and covers several common letters.
+
+TILEY
+Reason: ‘T’ is present, ‘I’ is correct and in the correct position, ‘Y’ is present.
+PIYEY
+Reason: T is in the correct spot, I is correct, and N is incorrect. Y is present in the word, but in an unknown spot.
+WEILS
+Reason: ‘I’ is in the correct position, ‘E’ is present but not in the correct spot, and none of the other letters are in the word.
+SLICE
+Reason: ‘E’ is correct and in the correct position. ‘I’ is present but not in the correct spot.
+SLICE
+Reason: I, E, and C are confirmed, and T is a possible letter.
+CEILS
+Reason: The ‘I’ is in the correct position, ‘E’ is present but not in the correct spot, ‘S’ is present but not in the correct spot, and ‘C’ and ‘T’ are incorrect.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+PILES
+Reason: The ‘I’ and ‘E’ are correct and in the correct positions, ‘S’ is present but not in the correct spot, and ‘T’ is incorrect.
+Average game completion: 1.5833333333333333 / 5
+Average tries: 5.666666666666667
+Average success: 0.16666666666666666
+
+Starting run 7
+Okay, let's start.
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word with several frequently used letters.
+
+SPACE
+Reason: The ‘P’ and ‘E’ are in the correct positions, and ‘A’ is present in the word.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+WARMY
+Reason: Maintaining 'A' and 'R' in their correct positions, and now using the valid letters, I’m going with ‘WARMY’ - a simple word with the correct letter placements.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+ARRAY
+Reason: The ‘R’ and ‘Y’ are in the correct positions, and ‘A’ is present in the word.
+Error: AI did not return a valid guess
+WORDS
+Reason: I’m focusing on the known letters and trying a common word.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+BLOKE
+Reason: The ‘O’ and ‘E’ are correct and in the correct positions. ‘A’ is present but not in the correct spot.
+HAZAR
+Reason: The ‘A’ and ‘R’ are present in the correct positions, ‘H’ is present but not in the correct spot, and the ‘I’ and ‘F’ are incorrect.
+ARIFF
+Reason: Considering the remaining letters and the positional constraints, I’m focusing on a word that includes ‘A’ and ‘R’ while utilizing the valid letters.
+FORCE
+Reason: The 'O' and 'R' are present and in the correct positions.
+Average game completion: 0.8333333333333334 / 5
+Average tries: 5.714285714285714
+Average success: 0.14285714285714285
+
+Starting run 8
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common and relatively frequent word.
+
+PAUSE
+Reason: The 'A' is correct, 'S' is present but not in the correct spot, 'U' is present but not in the correct spot, and 'E' is incorrect.
+Error: AI did not return a valid guess
+YAWED
+Reason: ‘A’ is in the correct position, ‘E’ is present, and ‘Y’ and ‘D’ are not present.
+SHALE
+Reason: ‘A’ and ‘E’ are correct and in the correct positions.
+CACHE
+Reason: The ‘A’ and ‘E’ are correct and in the correct positions, and ‘A’ is present in the word.
+FLAME
+Reason: The ‘E’ is correct and in the correct position. The ‘A’ is present in the word, but not in the correct position.
+Average game completion: 1.5 / 5
+Average tries: 5.75
+Average success: 0.125
+
+Starting run 9
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word with frequent letters, offering a good starting point.
+STATE
+Reason: S is in the first position, T is in the second position, A is in the third position, E is in the fourth position, and T is incorrect.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+ASTER
+Reason: ‘A’ and ‘E’ are confirmed correct. ‘T’ is confirmed present. ‘S’ is confirmed present.
+STEAL
+Reason: ‘S’, ‘T’, ‘A’, and ‘E’ are confirmed to be in the word.
+SEATR
+Reason: The 'S' and 'A' are correct placements from previous guesses, 'T' and 'E' are present in the word, and 'R' and 'L' are not.
+PASTE
+Reason: The ‘A’ and ‘S’ are in the correct position, the ‘T’ is present, and the ‘E’ is present.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+STATE
+
+Reason: Considering the feedback, I know that Q, W, Y, U, S, D, F, G, J, K, V, B, M, T, E, O, and H are not possible letters. I know that A, S, and E are present in the word. I'm trying to place them in the remaining spots to form a valid 5-letter word.
+Average game completion: 2.4166666666666665 / 5
+Average tries: 5.777777777777778
+Average success: 0.1111111111111111
+
+Starting run 10
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word and uses a variety of letters, giving me a good starting point.
+
+PARSE
+Reason: The 'A' is present and in the correct position.
+STATE
+Reason: The ‘A’ is confirmed to be in the word. I'm focusing on a common word structure with common letters and given the limited valid letters.
+WATCH
+Reason: The ‘A’ is in the correct position, ‘T’ is in the correct position, and ‘C’ is in the correct position.
+LAYER
+Reason: The ‘A’ is in the correct spot, ‘R’ is present but not in the correct spot, ‘E’ is present but not in the correct spot, and ‘Y’ is present and in the correct spot.
+CACHE
+Reason: ‘A’ is correct, ‘C’ is present, and ‘H’ is present in the word.
+Average game completion: 1.1666666666666667 / 5
+Average tries: 5.8
+Average success: 0.1
+
+Starting run 11
+Okay, let’s start.
+
+My first guess is: **TRAIN**
+
+Reason: A common and relatively frequent word.
+
+POWER
+Reason: 'E' is in the correct position. 'P', 'W', and 'R' are present but not in the correct spot.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+DROVE
+Reason: The ‘R’ and ‘E’ are in the correct positions. The ‘O’ is present but not in the correct position. The ‘D’ and ‘V’ are present in the word but not in those positions.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+PROOF
+Reason: P and O are correct in their positions. R is present in the word.
+Error: AI did not return a valid guess
+SPORT
+Reason: With the cumulative constraints, the only possible word is SPORT.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+REPORT
+Reason: The 'R' and 'O' are confirmed to be in the word, and the 'P' is present. The remaining letters are either incorrect or in the wrong position.
+Average game completion: 1.75 / 5
+Average tries: 5.818181818181818
+Average success: 0.09090909090909091
+
+Starting run 12
+Okay, let's begin.
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word with frequent letters.
+
+WEARY
+Reason: 'E' is correct and in the correct position. 'W', 'Y' are present in the word but not in the correct spot.
+Error: AI did not return a valid guess
+REPUT
+Reason: E is correct and in the correct spot. R is present but not in the correct spot.
+Error: AI did not return a valid guess
+SERVE
+Reason: E is correct and in the correct position. R is present but not in the correct spot.
+RETCH
+Reason: ‘E’ and ‘T’ are correct placements, ‘R’ is present, and ‘C’ is present, leaving ‘H’ to fill the last spot.
+SURGE
+Reason: The 'S' and 'E' are correct, 'R' is present, and 'T' is incorrect.
+Error: AI did not return a valid guess
+SERVE
+Reason: The feedback indicated 'S', 'E', 'R', and 'E' are correct letters in the word, and their positions are correct.
+Average game completion: 2.1666666666666665 / 5
+Average tries: 5.833333333333333
+Average success: 0.08333333333333333
+
+Starting run 13
+Okay, let’s begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common word with frequent letters.
+
+WRITE
+Reason: ‘I’ is correct and in the correct position. ‘R’ is correct and in the correct position. ‘T’ is correct and in the correct position. ‘W’ is correct and in the correct position. ‘E’ is incorrect. ‘B’ is incorrect. ‘O’ is incorrect. ‘Y’ is incorrect. The remaining letters are QWRTYUIOPASDFHJKLZXCVM.
+STUDY
+Reason: The ‘U’ and ‘T’ are confirmed to be present, and ‘I’ is in the correct spot.
+Error: AI did not return a valid guess
+AUDIO
+Reason: I know 'I' and 'T' are present, and 'T' is in the correct spot. The word must end in 'E' and contain 'U' and 'D'.
+STUDY
+Reason: Considering all the feedback, ‘S’, ‘T’, ‘U’, and ‘D’ were confirmed to be present in the word.
+AUDIT
+Reason: Considering the confirmed 'A', 'U', 'D', and 'I', I’m building a word around these letters, aiming for a common and plausible combination.
+Average game completion: 2.3333333333333335 / 5
+Average tries: 5.846153846153846
+Average success: 0.15384615384615385
+
+Starting run 14
+Okay, let’s begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word with several frequent letters, giving me a good starting point.
+
+CLUMP
+Reason: I eliminated the letters B, E, G, I, and N. This leaves many common letters. CLUMP uses those letters and fulfills the requirements.
+SHARK
+Reason: This was a wild guess, but the feedback eliminated many common letters. It's a reasonable choice given the previous unsuccessful attempts.
+SKIT
+Reason: I’m narrowing down the possibilities based on the remaining letters and the available positions.
+SKIRT
+Reason: The feedback “S: present” indicates the ‘S’ is in the word but not in the fourth position. The feedback “K: correct” means ‘K’ is in the word. The feedback “B: incorrect, E: incorrect, D: incorrect, M: incorrect, A: incorrect, N: incorrect, QWTYOFHJKZXV” were all invalid letters.
+SHYLY
+Reason: The ‘S’ and ‘H’ are correct, ‘Y’ is correct, and the remaining letters are ‘O’, ‘F’, ‘Z’, ‘V’, ‘B’, ‘C’, ‘D’, ‘G’, ‘J’.
+Average game completion: 1.1666666666666667 / 5
+Average tries: 5.857142857142857
+Average success: 0.14285714285714285
+
+Starting run 15
+Okay, let’s start. My first guess is:
+
+**ADIEU**
+
+Reason: This word uses a lot of common vowels, increasing my chances of hitting something correct.
+SWEAT
+Reason: The 'E' and 'T' are in the correct positions. ‘S’ and ‘A’ are present but not in the correct spots.
+QUERY
+Reason: I'm continuing to build upon the known constraints – 'S' and 'A' are in the word, and 'T', 'R', 'E', 'W' are incorrect. This guess aims to solidify the structure with a focus on available letters.
+Error: AI did not return a valid guess
+PAILS
+Reason: A is present and in the correct spot, S is present and in the correct spot, and I is present but not in the correct spot.
+AUDIO
+Reason: 'A' and 'O' are correct placements, 'I' is present but not in that position.
+SHIRE
+Reason: I is present, and A is present.
+Average game completion: 1.0833333333333333 / 5
+Average tries: 5.866666666666666
+Average success: 0.13333333333333333
+
+Starting run 16
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common and relatively frequent word.
+
+UNIFY
+Reason: I know 'I' and 'N' are in the correct positions, and 'R' is not in the word. This keeps the known letters and eliminates further possibilities.
+SHEDS
+Reason: Maintaining 'S' and 'H', I added 'E' and 'D' as they were the remaining viable letters.
+BLOKE
+Reason: The 'I' and 'N' are present in the word.
+LIMNO
+Reason: I’m prioritizing ‘I’, ‘N’, and ‘L’ as confirmed present. I’m adding ‘M’ and ‘O’ based on the available letters and aiming for a plausible word.
+WONKS
+Reason: I’m holding onto ‘I’ and ‘N’ and trying to build around the remaining letters – ‘Q’, ‘W’, ‘P’, ‘G’, ‘J’, ‘Z’, ‘X’, ‘C’, ‘V’, ‘M’. “WONKS” seems like the most probable solution.
+Error: AI did not return a valid guess
+LOINS
+Reason: I know ‘I’ and ‘N’ are in the correct positions, and I’m narrowing down the possibilities based on the feedback.
+Average game completion: 1.1666666666666667 / 5
+Average tries: 5.875
+Average success: 0.125
+
+Starting run 17
+Okay, let’s begin.
+
+My first guess is: **TRAIN**
+
+Reason: A common 5-letter word with frequent letters.
+
+WORDS
+Reason: “B” is confirmed to be in the word. I’m focusing on letters that are available and trying to construct a plausible word given the remaining options.
+POUTY
+Reason: 'O' is in the correct position, and 'U' is present but not in the correct spot.
+BOYAH
+Reason: B is present, O is correct, Y is correct, and A is present but not in the correct spot.
+Error: AI did not return a valid guess
+BOYAH
+Reason: The 'O' and 'Y' are correct in their positions. I'm using the remaining letters from the valid list to fill the remaining spots.
+BOYAH
+Reason: Maintaining ‘B’, ‘O’, and ‘Y’ due to prior feedback. Adding ‘A’ and ‘H’ to fill the remaining slots.
+BOYAH
+Reason: 'B' is in the word, 'O' and 'Y' are correct, and 'H' cannot be in the first position.
+BAYOU
+Reason: The 'O' from WORDS and POUTY is correct. 'Y' from POUTY and BOYANT is correct. 'B' from BEGIN is correct. 'A' is present but not in the correct spot. 'U' is present but not in the correct spot.
+VOYCE
+Reason: The 'O' and 'Y' are confirmed to be in the correct positions. 'E' is present but not in the correct spot, and ‘C’ is present but not in the correct spot.
+Error: AI did not return a valid guess
+JOYOU
+Reason: Given the current feedback, ‘Y’ and ‘O’ are confirmed, and ‘B’ and ‘T’ are eliminated. I'm selecting the remaining possible letters, attempting to create a valid word.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+BOATS
+Reason: The feedback indicated ‘B’ and ‘O’ are correct, and ‘Y’ is present. I’m prioritizing those letters and building around them.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+BOYEF
+Reason: With ‘B’ and ‘Y’ confirmed and ‘O’ in the correct position, I’m attempting to fill in the remaining letters with ‘F’ and ‘E’ based on the available valid letters.
+BOATS
+Reason: After so much negative feedback, I'm returning to my initial, successful combination, recognizing that it's the only viable option at this point.
+Average game completion: 1.3333333333333333 / 5
+Average tries: 5.882352941176471
+Average success: 0.11764705882352941
+
+Starting run 18
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word with frequent letters.
+
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+WEILY
+Reason: 'I' is present and in the correct position.
+Error: AI did not return a valid guess
+WEIGH
+Reason: 'I' is present and in the correct position. 'N' was incorrect, and the other letters were incorrect.
+Error: AI did not return a valid guess
+SPICY
+Reason: With the confirmation that 'I' is in the word and the previously established constraints, I'm aiming for a common and plausible word.
+QUYND
+Reason: I’m reducing the possibilities based on the feedback and sticking with ‘Y’.
+QUIET
+Reason: The ‘I’ and ‘Y’ are present in the word.
+Error: AI did not return a valid guess
+FOIL
+Reason: O: present, Y: present, and the remaining letters are common, allowing me to guess a word that fits the given letters.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+VOYAGE
+Reason: V, O, Y, and G are present, based on previous feedback and remaining valid letters.
+Average game completion: 0.6666666666666666 / 5
+Average tries: 5.888888888888889
+Average success: 0.1111111111111111
+
+Starting run 19
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common and relatively frequent word. It covers several vowels and consonants.
+
+Error: AI did not return a valid guess
+WEIGH
+Reason: 'I' is present and in the correct spot. 'N' was incorrect, and the other letters were incorrect.
+SHIRE
+Reason: I’m prioritizing the known letters ('I', 'H') and trying to find a word with these letters.
+SHIRT
+Reason: The ‘S’, ‘H’, ‘I’, and ‘R’ are correct, and ‘E’ is present.
+SHINE
+Reason: ‘H’ and ‘I’ are confirmed to be present in correct positions. ‘S’ is present but not in the correct spot.
+SHIRE
+Reason: The feedback indicates ‘S’, ‘H’, and ‘I’ are correct letters in the word, and ‘E’ is present. All other letters are incorrect.
+Average game completion: 2.6666666666666665 / 5
+Average tries: 5.894736842105263
+Average success: 0.10526315789473684
+
+Starting run 20
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common and relatively frequent word.
+
+ARISE
+Reason: ‘A’ is in the correct spot, ‘I’ is present but not in the correct spot, ‘E’ is present but not in the correct spot, and ‘S’ is present but not in the correct spot.
+SAILS
+Reason: ‘A’ and ‘I’ are confirmed to be in the correct positions. ‘S’ is correct. ‘R’, ‘E’, ‘U’, and ‘N’ are not present in the word.
+WORDS
+Reason: I know ‘A’ and ‘I’ are in the word, and ‘S’ is in the word.
+SPIFF
+Reason: The 'I' and 'S' are confirmed to be in the word, and 'F' is present.
+Error: AI did not return a valid guess
+SUITE
+Reason: The 'S' and 'U' are confirmed, and 'A' must be in the word.
+Average game completion: 1.4166666666666667 / 5
+Average tries: 5.9
+Average success: 0.1
+
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mgpt-4.1-1-retries[0m at: [34m[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20251006_094331-6svve4iw/logs[0m
+pygame 2.6.1 (SDL 2.28.4, Python 3.13.0)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Firebase logging disabled
+Starting run 1
+Okay, let's start.
+
+My first guess is: **TRAIN**
+
+Reason: This is a common 5-letter word and uses several common letters.
+
+WASTE
+Reason: The 'A' is in the correct position. The 'W' is present but not in the correct spot. The 'S' and 'T' are incorrect.
+Error: AI did not return a valid guess
+DEPTH
+Reason: ‘A’ is confirmed in the correct position, ‘T’ is confirmed as present in the word.
+EAGER
+Reason: ‘A’ and ‘E’ are confirmed to be present in the word.
+QUERY
+Reason: 'E' and 'Y' are confirmed to be present in the word.
+FLAME
+Reason: F, L, and E are confirmed as present in the word.
+Average game completion: 1.25 / 5
+Average tries: 6.0
+Average success: 0.0
+
+Starting run 2
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common five-letter word with frequent letters, giving me a good starting point.
+HOUSE
+Reason: The 'E' was correct, indicating it’s in the word and in the correct position.
+PSYED
+Reason: ‘S’ is correct and in the correct position. ‘E’ is present in the word but not in the correct spot.
+SPYED
+Reason: ‘S’ is correct and in the correct position. ‘E’ is present in the word.
+Error: AI did not return a valid guess
+SPEED
+Reason: ‘S’ was correct and in the correct spot. ‘E’ was present in the word but not in the correct spot.
+SWEET
+Reason: ‘E’ is in the correct spot. ‘S’ is present in the word.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+LYMPH
+Reason: The ‘Y’ and ‘P’ are present in the word and in the correct spot.
+QUESO
+Reason: Q is present, E is present, and S is present but not in the correct spot.
+FLASK
+Reason: L is present and in the correct spot.
+Average game completion: 1.1666666666666667 / 5
+Average tries: 6.0
+Average success: 0.0
+
+Starting run 3
+Okay, let’s begin. My first guess is:
+
+**TRAIN**
+
+Reason: A common 5-letter word with frequent letters.
+
+WORST
+Reason: I’m prioritizing the letters I know are present and trying a new arrangement.
+SPORT
+Reason: The feedback indicated ‘R’, ‘S’, and ‘T’ are in the word, and ‘T’ is in the correct position. This leaves ‘O’ as the only remaining letter.
+Error: AI did not return a valid guess
+REPORT
+Reason: The feedback indicates ‘R’ and ‘T’ are correct and in the correct positions. This leaves ‘O’, ‘P’, ‘E’ as the only possible letters to fill the remaining spots.
+REPORT
+Reason: The 'O', 'R', 'P', and 'T' were confirmed in the word. The 'S' is present but in the wrong position.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+STORE
+Reason: Based on the remaining valid letters and previous feedback, ‘S’, ‘T’, ‘O’, ‘R’, and ‘E’ are in the correct positions.
+Average game completion: 2.3333333333333335 / 5
+Average tries: 6.0
+Average success: 0.0
+
+Starting run 4
+Okay, let’s begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common and relatively frequent word. It covers a good range of letters.
+WORDS
+Reason: Eliminated 'E' and 'N', and introduced ‘W’, ‘O’, and ‘S’ based on the remaining valid letters.
+POSIT
+Reason: The 'O' and 'S' are correct placements from the previous feedback, and 'S' was also present in the word, so I’m trying to arrange them with the remaining letters.
+QUAYS
+Reason: Based on the remaining valid letters and the feedback, ‘Q’, ‘U’, ‘A’, and ‘S’ must be present in the word.
+PROOF
+
+Reason: I’m revisiting this word based on the remaining valid letters and the known positions of ‘O’ and ‘P’ and prioritizing the remaining letters.
+REPORT
+Reason: The feedback indicated “O” and “O” were in the correct positions, and “P” was present. I then filled in the remaining letters based on the remaining feedback.
+Average game completion: 1.0 / 5
+Average tries: 6.0
+Average success: 0.0
+
+Starting run 5
+Okay, let's start!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word with frequent letters, giving me a good starting point.
+
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+PROOF
+Reason: S: present, T: incorrect, A: incorrect, R: present, T: incorrect.  Final refinement based on all known constraints.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+QUERY
+Reason: I know 'S' is in the word, and ‘O’ is in the word.
+Error: AI did not return a valid guess
+WORDS
+Reason: ‘R’ and ‘E’ are in the correct positions, ‘O’ is present but not in the correct spot, ‘S’ is present in the word, and ‘T’ was previously incorrect.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+HEROS
+Reason: Based on the previous feedback and the constraint that ‘E’ must be in the word, the only remaining possibility is “HEROS”.
+HORSE
+Reason: The feedback indicated ‘O’ is in the correct spot, ‘R’ is in the correct spot, ‘E’ is in the correct spot, and ‘H’ is the first letter.
+Average game completion: 2.3333333333333335 / 5
+Average tries: 6.0
+Average success: 0.2
+
+Starting run 6
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common 5-letter word and a good starting point to test some frequently used letters.
+
+WIRES
+Reason: ‘W’ is present in the correct spot, ‘I’ is present in the correct spot, ‘R’ is not present in the word, and ‘S’ is present in the word.
+PILES
+Reason: I have an 'I' in the correct position, 'E' is correct, and I'm trying to use the 'S' in a new location.
+BEFIT
+Reason: I is present and in the correct spot, E is correct and in the correct position.
+QUIET
+Reason: I know 'I' and 'E' are present, 'T' is correct, and 'I' is present.
+Average game completion: 2.2 / 5
+Average tries: 5.833333333333333
+Average success: 0.3333333333333333
+
+Starting run 7
+Okay, let’s begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common and relatively frequent word.
+
+TEARS
+Reason: ‘E’ is correct and in the correct position. ‘T’ and ‘S’ are present but not in the correct spots.
+PERCY
+Reason: P, E, and Y are correct, and R, S, and C are correct.
+REARS
+Reason: The ‘E’ and ‘R’ are correct from previous feedback. The ‘S’ is a new letter, and ‘A’ and ‘O’ are new letters.
+QUERY
+Reason: The ‘E’ and ‘Y’ are correct in the word. The ‘R’, ‘S’, ‘T’, ‘A’ and ‘D’ are incorrect, and the ‘Q’ and ‘U’ are not present.
+POWER
+Reason: With the feedback, ‘R’ is in the correct position. ‘E’ is present but not in the correct position. ‘Y’ is present but not in the correct position. ‘Q’, ‘U’, ‘E’ and ‘Y’ are invalid. Considering the previous guesses and the remaining letters, "POWER" is the most logical guess.
+YEARD
+Reason: The feedback indicated ‘E’ and ‘R’ are correct in their positions, ‘Y’ is present but not in the current position, and ‘D’ is not in the word.
+Average game completion: 1.9166666666666667 / 5
+Average tries: 5.857142857142857
+Average success: 0.2857142857142857
+
+Starting run 8
+Okay, let’s begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word with several frequent letters.
+
+POWER
+Reason: The 'E' is present and in the correct position. I'm focusing on using the remaining letters and considering common word structures.
+SHALE
+Reason: The 'E' is present and in the correct position.
+JUICE
+Reason: The 'E' is present and in the correct spot, and the 'J' is present.
+CHERT
+Reason: The ‘E’ and ‘C’ are correct and in the correct position, and ‘H’ is correct.
+Error: AI did not return a valid guess
+CHECK
+Reason: The 'C' and 'H' are correct placements, and 'E' is present.
+Average game completion: 2.0 / 5
+Average tries: 5.875
+Average success: 0.375
+
+Starting run 9
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common 5-letter word and a good starting point to cover some common letters.
+
+PEACE
+Reason: I’m focusing on common vowels and consonants, holding onto ‘I’.
+SPICE
+Reason: Maintaining ‘P’ and ‘I’ in their current positions, I’m adding ‘S’ to complete the word, focusing on common pairings.
+JUICE
+Reason: The 'I' was correct in the middle, and 'Q' was present in the word.
+WIRED
+Reason: The 'I', 'E', and 'D' are correct placements from the previous feedback.
+PIQUE
+Reason: I have ‘I’ and ‘E’ in the correct position, and ‘P’ and ‘C’ are present in the word.
+Average game completion: 0.8333333333333334 / 5
+Average tries: 5.888888888888889
+Average success: 0.3333333333333333
+
+Starting run 10
+Okay, let’s begin.
+
+My first guess is: **TRAIN**
+
+Reason: This is a common 5-letter word with frequent letters.
+
+SWIRM
+Reason: I am building upon the known correct letter "I" in the fourth position. I'm adding letters that have been confirmed to be present, focusing on creating a plausible five-letter word.
+SWIFT
+Reason: I correctly identified that ‘I’ is in the correct position. I eliminated ‘B’, ‘E’, ‘G’, ‘N’, ‘R’, and ‘T’. This leaves ‘QWRTYUIOPASDFHJKLZXCVM’ to choose from, and ‘W’ was the only possible letter.
+SPORT
+Reason: ‘S’ is correct and in the correct spot, ‘P’ is correct and in the correct spot, ‘T’ is correct and in the correct spot, ‘R’ is present in the word but in the incorrect spot.
+Error: AI did not return a valid guess
+WRITE
+Reason: The ‘W’, ‘R’, ‘T’, and ‘E’ are correct letters in the word, and their positions are correct.
+SHIRT
+Reason: Based on the feedback, I've narrowed it down to a word containing 'I', 'R', and 'T', with 'S' and 'E' being eliminated.
+Average game completion: 2.7 / 5
+Average tries: 5.8
+Average success: 0.4
+
+Starting run 11
+Okay, let’s begin.
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word and covers a lot of potential letters.
+
+Error: AI did not return a valid guess
+GROUT
+Reason: The 'G' is in the correct position.
+HAPPY
+Reason: 'Y' is present and in the correct position, 'P' is present but not in the correct spot, and 'H' is present but not in the correct spot.
+Error: AI did not return a valid guess
+PURSE
+Reason: The ‘P’ and ‘S’ are present in the word.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+TRUST
+Reason: The feedback indicates that 'T', 'U', and 'S' are in the word and in the correct positions.
+PURSE
+Reason: The 'P' and 'U' are correct, 'R' and 'T' are not, and 'S' and 'E' are present but not in the correct spot.
+Average game completion: 1.25 / 5
+Average tries: 5.818181818181818
+Average success: 0.36363636363636365
+
+Starting run 12
+Okay, let’s start. My first guess is:
+
+**TRAIN**
+
+Reason: A common word with frequent letters.
+ADIEU
+Reason: ‘A’ is present in the word and in the correct position.
+POWER
+Reason: D is present, A is present and in the correct position, and E is present in the word.
+DEIFY
+Reason: The feedback confirms that 'D' and 'E' remain in their correct positions. I am maintaining this solution as all other options have been eliminated.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+SHALE
+Reason: The 'E' is present and 'L' is present.
+LEAKY
+Reason: The 'E' is present and in the correct position, and 'Y' is present in the word.
+Average game completion: 1.3333333333333333 / 5
+Average tries: 5.833333333333333
+Average success: 0.3333333333333333
+
+Starting run 13
+Okay, let’s start.
+
+My first guess is: **TRAIN**
+
+Reason: A common and relatively frequent word.
+
+Error: AI did not return a valid guess
+REEDY
+Reason: R is present and in the correct position. We know E, Y, S, T, A, and Q are not in the word.
+PROOF
+Reason: R is present, and I’m using the remaining valid letters to build a plausible word.
+QUIET
+Reason: Considering the feedback, I reverted to a more basic approach, prioritizing the confirmed letters and trying to build a word with the remaining possibilities.
+PURGE
+Reason: The ‘P’ is present and in the correct spot, ‘U’ is present in the word, and ‘R’ is present in the word.
+PURSE
+Reason: P, U, R, and E are present, and S is the remaining letter.
+Average game completion: 1.0 / 5
+Average tries: 5.846153846153846
+Average success: 0.3076923076923077
+
+Starting run 14
+Okay, let’s start.
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word and covers several letters that might be present.
+
+Error: AI did not return a valid guess
+QUERY
+Reason: The 'Y' is in the correct position, 'Q' is present but not in the correct spot, 'E' is present but not in the correct spot, and 'S', 'T', 'A', 'C', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'R', 'V', 'W', 'X', 'Z' are not in the word.
+PERVO
+Reason: The 'E' is in the correct position. 'R' is incorrect, 'Y' is incorrect. The 'T' is incorrect. I'm trying a word with a 'V' in the second position.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+REWORD
+Reason: The 'R' and 'E' are in the correct positions, 'V' is present but not in the correct spot, and 'O' is present but in the wrong spot.
+VEILS
+Reason: With ‘R’, ‘O’, and ‘V’ eliminated, the remaining letters are I, D, F, H, J, K, L, Z, X, C, B, M. ‘VEILS’ fits the remaining criteria.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+DHAVE
+Reason: Based on the current feedback, ‘D’ and ‘H’ are present and in the correct positions, as indicated by the previous feedback. ‘E’ is present, and the ‘E’ is in the correct spot. I’m left with ‘F’, ‘K’, ‘J’, ‘C’, ‘B’, ‘M’, ‘Z’, ‘Y’ to fill in the remaining spots.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+JOKER
+Reason: The feedback confirms that 'JOKER' is the correct word.
+Average game completion: 1.4166666666666667 / 5
+Average tries: 5.857142857142857
+Average success: 0.2857142857142857
+
+Starting run 15
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common and relatively frequent word.
+
+SHOUT
+Reason: The 'T' was correctly placed, but the other letters were incorrect. I’m focusing on common vowel and consonant combinations.
+STEPS
+Reason: ‘T’ is present in the correct position from the previous feedback. ‘S’ is correct from the previous feedback.
+BYTES
+Reason: With ‘R’, ‘O’, and ‘U’ ruled out, I'm focusing on the remaining letters of QWETYDFGJKLZXCVBM and the known presence of ‘T’. “BYTES” fits the criteria.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+SYSTEM
+Reason: The feedback indicated 'Y', 'T', and 'E' are present, and 'S' is present. Combining these with the initial 'T', I deduced the word must contain those letters. The remaining letters have been ruled out.
+Error: AI did not return a valid guess
+SYSTEM
+Reason: The feedback indicated 'T' and 'E' are present, 'S' is present, and 'Y' is present. The remaining letters were confirmed to be incorrect. This narrowed it down to a 5-letter word with those letters present, leading to "SYSTEM".
+Average game completion: 1.75 / 5
+Average tries: 5.866666666666666
+Average success: 0.26666666666666666
+
+Starting run 16
+Okay, let’s begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word and covers several common letters.
+
+Error: AI did not return a valid guess
+SHOUT
+Reason: Eliminated B, E, G, I, and N. Replaced I with T. Replaced E with O. Considering the remaining letters (QWRTYUOPASDFHJKLZXCVM) and the feedback, SHOUT is a plausible option.
+WORDS
+Reason: O is correct, and R is correct, and D is correct.
+TOPAZ
+Reason: The 'O' was confirmed to be present, and 'T' was confirmed to be in the correct spot. 'E' was confirmed to be incorrect.
+Error: AI did not return a valid guess
+FLOAT
+Reason: With the confirmation of ‘O’ and ‘T’, I focused on building a plausible word structure, utilizing the remaining letters strategically to arrive at a suitable solution.
+Average game completion: 1.9 / 5
+Average tries: 5.8125
+Average success: 0.3125
+
+Starting run 17
+Okay, let’s start.
+
+My first guess is: **TRAIN**
+
+Reason: A common and relatively frequent word.
+
+PERCY
+Reason: R is present and in the correct spot. E is present, and Y is present but not in the correct spot.
+POWER
+Reason: O is in the correct spot. W is present but not in the correct spot. P, E, and R are incorrect.
+QUIET
+Reason: Q is present in the word.
+BRUTE
+Reason: R is correct and present, U is present, T is present, and E is present.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+DRYED
+Reason: The ‘R’ and ‘E’ are correct and in the correct positions, ‘Y’ is present but not in the correct spot, and ‘D’ is present but not in the correct spot.
+FURRY
+Reason: R and T are correct, U and E are present, and I have no other feedback.
+Error: AI did not return a valid guess
+ROUTE
+Reason: The feedback indicated ‘E’ is in the last position, and ‘U’ is in the second position. I deduced that ‘R’ must be in the first position, and ‘T’ must be in the fourth position.
+Average game completion: 1.3333333333333333 / 5
+Average tries: 5.823529411764706
+Average success: 0.29411764705882354
+
+Starting run 18
+Okay, let's start.
+
+My first guess is: **CRANE** 
+
+Reason: This is a common five-letter word.
+
+SHINE
+Reason: S is correct in the first position. H is correct in the second position. I is correct in the fourth position. N is correct in the fifth position.
+SUBJECT
+Reason: Considering the confirmed 'S' in the first position and ‘N’ present, I'm aiming for a word that fits the remaining criteria.
+BONDS
+Reason: ‘N’ is present in the word.
+WOMEN
+Reason: With the severely reduced letter options, I’m focusing on creating a valid word with the confirmed presence of ‘N’ and ‘O’, utilizing the remaining letters (Q, W, Y, U, P, K, Z, X, C, V, M).
+QUERY
+Reason: The feedback indicated ‘O’ and ‘N’ were present, and ‘N’ must be in the word.
+Average game completion: 0.9166666666666666 / 5
+Average tries: 5.833333333333333
+Average success: 0.2777777777777778
+
+Starting run 19
+Okay, let's start. My first guess is:
+
+**TRAIN**
+
+Reason: A common word with several frequent letters.
+
+FARES
+Reason: The 'A' is in the correct position, 'F' is present but not in the correct spot, and 'R' and 'S' are incorrect.
+PEAKS
+Reason: The 'E' and 'K' are present and in the correct positions. 'A' is present but not in the correct spot and 'S' and 'T' are not in the word.
+JUICE
+Reason: ‘U’ and ‘E’ are present and in the correct position, ‘A’ is present but not in the correct spot.
+LOYAL
+Reason: Considering the remaining valid letters and the known positions of 'A' and 'E', I'm selecting a common word with these letters.
+GOODS
+Reason: The ‘O’ is present, and the other letters are still unknown.
+Average game completion: 0.9166666666666666 / 5
+Average tries: 5.842105263157895
+Average success: 0.2631578947368421
+
+Starting run 20
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word with frequent letters, giving me a good starting point.
+LAYER
+Reason: The 'R' and 'E' are in the correct positions, 'A' is present in the word, and ‘S’ and ‘Y’ are present in the word.
+WARMS
+Reason: The ‘R’ and ‘E’ are correct placements, ‘A’ is present in the word.
+REACT
+Reason: The ‘T’ is in the correct position, ‘A’ is present, and ‘R’ is present.
+HOUSE
+
+Reason: The feedback indicated ‘O’, ‘U’, and ‘E’ were present in the word, and I was able to use the available letters to guess HOUSE.
+Error: AI did not return a valid guess
+PAPER
+Reason: ‘A’ is present, ‘R’ is present.
+Average game completion: 1.3333333333333333 / 5
+Average tries: 5.85
+Average success: 0.25
+
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mgpt-4.1-3-retries[0m at: [34m[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20251006_100840-vbh4osww/logs[0m
+pygame 2.6.1 (SDL 2.28.4, Python 3.13.0)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Firebase logging disabled
+Starting run 1
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common 5-letter word with frequent letters.
+
+QUERY
+Reason: The 'Y' is present in the word and in the correct position.
+Error: AI did not return a valid guess
+WARPS
+Reason: 'A' is confirmed to be in the word, and 'R' is in the correct position. 'W' and 'S' have not been eliminated, and I am prioritizing letters that haven't been ruled out.
+FORGE
+Reason: With the constraints tightening, I'm prioritizing the remaining letters and ensuring they align with the known correct positions.
+HARMS
+Reason: ‘A’ is correct in the first position, ‘R’ is present in the word but not in the first position, and ‘S’ is present in the last position.
+RAMPS
+Reason: R is present, A is present, and M is present.
+Average game completion: 1.3333333333333333 / 5
+Average tries: 6.0
+Average success: 0.0
+
+Starting run 2
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common and relatively frequent word.
+
+Error: AI did not return a valid guess
+QUERY
+Reason: 'R' is present in the word, and it's in the correct position.
+POWER
+Reason: The ‘R’ is present and in the correct position, as indicated by the previous feedback.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+SERVE
+Reason: The ‘E’ is correct and in the correct position. ‘R’ is present but not in the correct spot.
+SHREW
+Reason: The 'E' and 'R' are correct and in the correct positions. ‘S’ and ‘H’ are incorrect.
+CREEK
+Reason: The ‘E’ and ‘K’ are correct and in the correct positions, and ‘C’ and ‘R’ were previously incorrect.
+Average game completion: 2.0 / 5
+Average tries: 6.0
+Average success: 0.0
+
+Starting run 3
+Okay, let’s start!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word with several frequently used letters.
+
+LAYER
+Reason: The 'A' is in the correct position, and 'R' and 'E' are present in the word, but not in the correct position.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+EARTH
+Reason: The 'A' and 'E' are correct positions from the previous feedback. 'R' is present but in the wrong spot, and 'T' is incorrect. I’m building on the known letters and positions.
+BRAVE
+Reason: ‘R’ is in the correct spot, ‘A’ is present but in the incorrect spot, ‘V’ is present but in the incorrect spot, and ‘E’ is correct.
+CRANE
+Reason: The 'A' and 'E' are correct, and 'R' is present, but the other letters are incorrect.
+WRITE
+Reason: With the last feedback, we know 'W', 'R', 'T', and 'E' are in the word, and 'W' is in the first position.
+Average game completion: 1.6666666666666667 / 5
+Average tries: 6.0
+Average success: 0.0
+
+Starting run 4
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common and relatively frequent word. It gives me a good starting point to see which letters are present.
+
+HOUSE
+Reason: Considering the previous eliminations, “HOUSE” offers a plausible combination of letters within the remaining valid options.
+BLOKE
+Reason: The "O" and "U" are correct placements, and "K" is present in the word.
+BUOYE
+Reason: B and U are confirmed, and I'm prioritizing letters that haven't been eliminated.
+ROUTE
+Reason: Given the previous feedback and the constraints, I'm sticking with the core letters and trying to finalize the word.
+PUBGY
+Reason: B is present, and P, U, and Y are valid letters for this spot.
+JUDGE
+Reason: With the new feedback, ‘B’ must be in the word. Given the remaining valid letters and the constraints, “JUDGE” is the only possible solution.
+JUYPB
+Reason: Considering the constraints and previous feedback, I'm prioritizing a word that utilizes the known positions and fills in the remaining spots with the available options.
+Error: AI did not return a valid guess
+JUICE
+Reason: The feedback confirmed ‘J’ and ‘U’ are in the word and in the correct positions.
+Average game completion: 1.1666666666666667 / 5
+Average tries: 6.0
+Average success: 0.0
+
+Starting run 5
+Okay, let's start!
+
+My first guess is: **TRAIN**
+
+Reason: A common and relatively frequent word.
+
+PAUSE
+Reason: ‘A’ is in the correct position. ‘U’ and ‘E’ are present but not in the correct spot. ‘P’ and ‘S’ are incorrect.
+FAITH
+Reason: The ‘A’ is correct and in the correct position, the ‘I’ is present in the word.
+WORDS
+Reason: ‘D’ is present in the word, ‘A’ is present.
+QUERY
+Reason: The ‘Y’ is in the correct position, ‘Q’ is present in the word, and ‘E’ is present in the word.
+YAGLE
+Reason: The feedback indicates 'E' is not a possible letter for this spot, and 'Y' is present. I'm still working with these constraints.
+LAYER
+Reason: ‘A’ is in the word, and ‘E’ and ‘Y’ are present.
+Average game completion: 1.1666666666666667 / 5
+Average tries: 6.0
+Average success: 0.0
+
+Starting run 6
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common word with frequent letters.
+
+CHEST
+Reason: The 'T' was correct, the 'S' is present but not in the correct spot, and the other letters are incorrect. I'm aiming for a common word with the 'T' in the first position.
+CREPT
+Reason: The feedback indicated that ‘C’ and ‘T’ are confirmed in the correct positions. ‘Y’ was added as a possible letter based on the remaining letters and position.
+CREEP
+Reason: The feedback indicated ‘E’ and ‘T’ are correct in the word, and ‘E’ is in the correct position.
+RECTO
+Reason: R is present, E is present, C is present, T is present, and O is present.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+TEARS
+Reason: The feedback indicated 'T' and 'E' are present in the word, and 'R' is present but not in the correct spot.
+Average game completion: 1.6666666666666667 / 5
+Average tries: 6.0
+Average success: 0.0
+
+Starting run 7
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common 5-letter word with frequent letters.
+
+ASTER
+Reason: 'A' is confirmed to be in the word, 'S' and 'T' are in the correct positions, and ‘R’ and ‘E’ are present but not in the correct spot.
+WARMY
+Reason: The 'R' and 'A' are correct placements from the previous feedback, and 'Y' was added as a potential letter given the available letters.
+PAUSE
+Reason: 'A' is present and in the correct spot. 'U' and 'S' are incorrect.
+Error: AI did not return a valid guess
+BRAVE
+Reason: 'A' is correct in the second position. 'R' is present and in the correct spot.
+WARMS
+Reason: R and A are correct, and S is present in the word.
+LOADS
+Reason: The ‘D’ is in the correct position.
+Average game completion: 1.1666666666666667 / 5
+Average tries: 6.0
+Average success: 0.0
+
+Starting run 8
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common and relatively frequent word.
+
+TASTE
+Reason: Considering the feedback, 'T' and 'A' were confirmed as present, 'I' was in the correct spot, and 'R' and 'N' were eliminated. "TASTE" is the only combination that fits the criteria using the remaining valid letters.
+PATIO
+Reason: The ‘A’ and ‘O’ are correct and in the correct positions. ‘T’ was previously correct, but is not in the correct spot. ‘I’ was previously correct, but is not in the correct spot. ‘E’ was previously correct, but is not in the correct spot. ‘Y’ was incorrect.
+Average game completion: 2.8333333333333335 / 5
+Average tries: 5.625
+Average success: 0.125
+
+Starting run 9
+Okay, let’s begin.
+
+My first guess is: **TRAIN**
+
+Reason: This is a common five-letter word and a reasonable starting point.
+
+Error: AI did not return a valid guess
+POINT
+Reason: All letters E, I, and N are confirmed to be in the word, and their positions are now known.
+RINSE
+Reason: ‘N’ and ‘I’ are confirmed to be in the word, and ‘E’ is present but not in the correct spot.
+WIRED
+Reason: I and N are correct and in the correct positions.
+QUERY
+Reason: The 'Q' and 'Y' are correct in the correct positions, 'I' is present, 'N' is present, and 'E' is present.
+Error: AI did not return a valid guess
+REIGN
+Reason: The feedback indicated ‘I’ and ‘N’ are correct and in the correct position, and ‘E’ is present.
+Average game completion: 1.8333333333333333 / 5
+Average tries: 5.666666666666667
+Average success: 0.1111111111111111
+
+Starting run 10
+Okay, let’s begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common and relatively frequent word.
+
+WORDS
+Reason: The previous guess of WORDS was incorrect. The 'S' was in the correct spot, but the other letters were not.
+FUZZY
+Reason: O and S are confirmed present, and the other letters have not been identified.
+SPORT
+Reason: The 'O' and 'S' from previous feedback are still present, and 'O' is in the correct spot.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+SHALE
+Reason: I’m focusing on the remaining letters and attempting to create a valid word, given the feedback.
+SALVO
+Reason: S is correct, A is present, L is present, and O is present.
+Average game completion: 1.5833333333333333 / 5
+Average tries: 5.7
+Average success: 0.2
+
+Starting run 11
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word and covers a lot of potential letters.
+
+QUERY
+Reason: The 'R' is present in the correct position, 'Y' is present in the correct position, and the other letters are incorrect.
+SERVE
+Reason: The feedback indicated 'E', 'R', and 'Y' are in the word and in the correct positions.
+VERRY
+Reason: The 'E' and 'R' are correct, 'V' is present, and 'Y' is present.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+VERIFY
+Reason: The feedback indicated ‘R’ and ‘V’ were present in the word. I then constructed a word with these letters in the correct positions.
+Error: AI did not return a valid guess
+POWER
+Reason: The feedback indicated ‘V’, ‘E’, ‘R’, and ‘Y’ are present in the word.
+Average game completion: 1.8333333333333333 / 5
+Average tries: 5.7272727272727275
+Average success: 0.18181818181818182
+
+Starting run 12
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common 5-letter word with frequent letters.
+
+START
+Reason: Given that 'T' must be present and 'A' was confirmed in the correct position, I selected ‘S’ and ‘R’ as possible letters, based on the allowed letters.
+STARE
+Reason: The feedback indicated that S, T, A, and R are in the word, and that T was in the correct spot.
+SHARE
+Reason: The feedback indicated ‘S’, ‘T’, ‘A’, and ‘R’ were correct letters in the word, and ‘T’ was in the correct position.
+STARE
+Reason: The feedback indicates that S, T, A, and R are present in the word and in their correct positions. The only remaining letter is E, which has been ruled out.
+STARE
+Reason: I am so sorry for the repeated mistakes. With the current feedback, the correct word is STARE.
+Average game completion: 3.5 / 5
+Average tries: 5.75
+Average success: 0.16666666666666666
+
+Starting run 13
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common 5-letter word with frequent letters.
+
+QUERY
+Reason: The 'R' from the previous guess was correct, and 'Y' was added as a possible letter.
+WORSE
+Reason: U is confirmed, and R is confirmed.
+SPADE
+Reason: S is present, P is present, A is present, and D is present, and E is present but not in the correct spot.
+SHALE
+Reason: S is present, H is present, and E is present.
+SHRUB
+Reason: The feedback indicated ‘R’ and ‘U’ were correct, and ‘S’ was present. This leads to the word SHRUB.
+Average game completion: 1.8333333333333333 / 5
+Average tries: 5.769230769230769
+Average success: 0.23076923076923078
+
+Starting run 14
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common and relatively frequent word.
+
+CHOKE
+Reason: All letters are incorrect based on the feedback.
+PEACE
+Reason: The 'E' is present, and we are refining based on the remaining letters and feedback.
+SWEET
+Reason: The ‘E’ is present and in the correct position. I’m focusing on words that could possibly contain the letters S, W, T, and that are common 5-letter words.
+SYSTEM
+Reason: The feedback indicated ‘E’ and ‘T’ were present, and ‘E’ was present in the correct position. ‘S’ was present, and I'm prioritizing those letters and trying to build a plausible word.
+Error: AI did not return a valid guess
+SERVE
+Reason: The 'S' and 'E' are confirmed to be in the word, and ‘T’, ‘W’, ‘L’, ‘I’, ‘U’, and ‘Q’ are not. I'm focusing on a word that includes these letters and the known positions.
+Average game completion: 1.3333333333333333 / 5
+Average tries: 5.785714285714286
+Average success: 0.21428571428571427
+
+Starting run 15
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common 5-letter word with frequent letters.
+
+SWEET
+Reason: ‘T’ is in the correct position, ‘I’ is in the correct position, and ‘E’ and ‘S’ are present in the word.
+WITTY
+Reason: The ‘W’, ‘I’, ‘T’, and ‘Y’ are present in the word.
+Average game completion: 2.3333333333333335 / 5
+Average tries: 5.6
+Average success: 0.26666666666666666
+
+Starting run 16
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common 5-letter word, and a reasonable starting point with common letters.
+
+POWER
+Reason: 'R' is present and in the correct position.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+HOUSE
+Reason: ‘O’, ‘U’, ‘S’, and ‘E’ are confirmed from previous feedback.
+FORCE
+Reason: With "R", "O", and "E" confirmed, I am now focusing on a plausible word using the remaining letters.
+CORNER
+Reason: Despite the latest feedback, the word must contain ‘O’, ‘R’, ‘E’, and ‘H’, and ‘C’. ‘CORNER’ still fits these constraints perfectly.
+CHORED
+Reason: CHORED remains the only viable solution given the accumulated feedback.
+Average game completion: 1.1666666666666667 / 5
+Average tries: 5.625
+Average success: 0.25
+
+Starting run 17
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common 5-letter word with frequent letters. It gives us a good starting point for assessing the feedback.
+
+Error: AI did not return a valid guess
+ROUTE
+Reason: R and O are correct, U is present, and E is present but not in the 3rd position.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+SHARE
+Reason: ‘A’ is confirmed. ‘R’ is confirmed. I’ve placed ‘S’ in the last position and attempted to fill in the remaining spots with the remaining letters.
+Error: AI did not return a valid guess
+RETIE
+Reason: With the latest feedback, ‘R’, ‘T’, ‘E’, and ‘I’ are confirmed. I'm building the word around these confirmed letters and their correct positions.
+WASTE
+Reason: ‘W’ and ‘E’ are correct in the correct positions. ‘T’ and ‘A’ are not in the word.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+RETRY
+Reason: R and E are present, T is present, and A is present.
+Average game completion: 1.6666666666666667 / 5
+Average tries: 5.647058823529412
+Average success: 0.23529411764705882
+
+Starting run 18
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word with frequent letters, giving me a good starting point.
+Error: AI did not return a valid guess
+WIRES
+Reason: The 'I' is in the correct position, and we know 'T', 'R', 'A', 'N', 'W', 'E', and 'S' are not in the word.
+LOYAL
+Reason: I is correct and in the correct position.
+QUERY
+Reason: The previous feedback indicated that ‘QUERY’ was correct, and the current feedback confirms that.
+PIETY
+
+Reason: I know 'I' is in the correct position. 'Y' is correct.
+HIDEY
+Reason: I is confirmed present, Y is confirmed present, and I is in the correct position.
+Error: AI did not return a valid guess
+JIBES
+Reason: I, Y are correct from previous feedback.
+Average game completion: 1.0 / 5
+Average tries: 5.666666666666667
+Average success: 0.2222222222222222
+
+Starting run 19
+Okay, let’s start.
+
+My guess is: **TRAIN**
+
+Reason: This is a common word and covers several vowels, giving us a good starting point.
+
+QUERY
+Reason: I'm keeping 'T' and 'Q' and trying another letter that hasn't been eliminated.
+WIDTH
+Reason: ‘U’ was correct and in the correct position. ‘T’ was confirmed to be in the word. ‘W’ was confirmed to be in the word. ‘H’ was confirmed to be in the word. ‘D’ was confirmed to be in the word. ‘O’ and ‘L’ were incorrect.
+HUTPE
+Reason: ‘U’ and ‘T’ are correct, ‘H’ is correct, and ‘E’ is now confirmed to be in the word.
+HUDOT
+Reason: The ‘U’ remains in the correct spot, ‘D’ must be in the word, and ‘T’ is not in the correct position.
+HUTED
+
+Reason: I am adhering to the confirmed letters of H, U, and T.
+DUTCH
+Reason: The 'T' and 'D' were present in the word, and 'H' was in the correct position, so I built around those letters to form a plausible word.
+Average game completion: 2.125 / 5
+Average tries: 5.578947368421052
+Average success: 0.2631578947368421
+
+Starting run 20
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common 5-letter word with frequent letters.
+
+SYNCH
+Reason: ‘T’ is confirmed to be in the first position. ‘N’ is confirmed to be in the last position. ‘Y’ is present, but not in the correct location.
+ENTER
+Reason: The 'T' and 'N' are confirmed, and I'm working with the remaining allowed letters to form a 5-letter word.
+SLUCT
+Reason: 'N' and 'C' are present and in the correct positions, and 'T' is in the word.
+WOMEN
+Reason: The ‘N’ is present and in the correct position. The ‘C’ is confirmed to be in the word.
+Error: AI did not return a valid guess
+OCTAN
+Reason: The ‘O’ is correct, ‘T’ is present, and ‘N’ is present.
+TONIC
+Reason: The 'O', 'T', 'N', 'C' and 'A' are present in the word and in the correct positions.
+Average game completion: 1.5 / 5
+Average tries: 5.6
+Average success: 0.25
+
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mgpt-4.1-5-retries[0m at: [34m[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20251006_104508-0k96aoj0/logs[0m
+pygame 2.6.1 (SDL 2.28.4, Python 3.13.0)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Firebase logging disabled
+Starting run 1
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common five-letter word, and a reasonable starting point with several common letters.
+STRAP
+Reason: 'T' and 'A' are correct. 'R' is present but not in the second position. ‘I’ and ‘N’ are not in the word.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+WASTE
+Reason: ‘T’ and ‘E’ are correct, ‘A’ is present but not in the correct spot, ‘R’ and ‘S’ are present but not in the correct spot.
+ROUTE
+Reason: R is correct in the correct position, O is correct in the correct position, U is correct in the correct position, T is present but incorrect, and E is present.
+TEARS
+
+Reason: The ‘T’ and ‘E’ are correct, ‘A’ and ‘R’ are present, and ‘S’ and ‘P’ are not.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+RETIE
+Reason: RETIE is the only possible solution given the constraints.
+Average game completion: 2.1666666666666665 / 5
+Average tries: 6.0
+Average success: 0.0
+
+Starting run 2
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common 5-letter word, and a good starting point for covering many letters.
+
+Error: AI did not return a valid guess
+SYSTEM
+Reason: I now know 'S', 'Y', 'E', and 'M' are in the word, and their positions are correct.
+WORRY
+Reason: I retained ‘N’ from previous feedback. I added ‘W’, ‘O’, and ‘R’ to fill the remaining spots.
+Error: AI did not return a valid guess
+SPIKE
+Reason: I know ‘I’ and ‘E’ are in the correct positions. I also know ‘N’ is present. The remaining letters must be ‘S’ and ‘K’.
+SINUS
+Reason: I have a ‘present’ I and a ‘present’ N, and the word is 5 letters long.
+BASIC
+Average game completion: 1.0833333333333333 / 5
+Average tries: 6.0
+Average success: 0.0
+
+Starting run 3
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common 5-letter word with frequent letters.
+
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+NILES
+Reason: I retained ‘I’ and ‘N’ in their correct positions. I replaced ‘R’ with ‘L’ based on the previous feedback, and added ‘E’ as a present letter.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+UNION
+Reason: The ‘N’ was correct, and ‘I’ was confirmed. I'm building on this, trying to create a common word that fits the constraints.
+LOINS
+Reason: The 'I' and 'N' from previous feedback remain, 'O' and 'T' are added, and ‘L’ is added to fill the last spot.
+PINTS
+Reason: Considering the remaining letters and the confirmed positions of ‘I’, ‘N’, and ‘S’, I'm constructing a word that fits the criteria.
+WONKS
+Reason: I know ‘O’ and ‘N’ are in the correct positions. ‘S’ is present, and I’m prioritizing letters from the remaining valid list: QWEYSDFGHJKZXCVBM
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+BONDS
+Reason: The feedback indicates ‘I’ and ‘N’ are confirmed, ‘S’ is present, and ‘O’ is present. The remaining letter must be ‘E’.
+Average game completion: 1.9166666666666667 / 5
+Average tries: 6.0
+Average success: 0.0
+
+Starting run 4
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word and covers a lot of potential letters.
+PRIOR
+Reason: 'R' is correct, 'I' is present, and 'O' is correct, and 'P' is correct.
+Error: AI did not return a valid guess
+PRISE
+Reason: The feedback indicated 'P', 'R', and 'I' are correct in the word, and 'R' and 'I' are in the correct spots. ‘O’ was incorrect.
+PRIZE
+Reason: The 'P', 'R', 'I', and 'Z' are correct in the word, and the 'E' is present but in the incorrect spot.
+Average game completion: 3.375 / 5
+Average tries: 5.5
+Average success: 0.25
+
+Starting run 5
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word and covers a lot of potential letters.
+
+SHORE
+Reason: The 'R' and 'S' are present in the word, and 'R' is in the correct position.
+LAYER
+Reason: Based on the previous feedback, ‘A’ is present. ‘R’ and ‘E’ are in the correct positions. ‘Y’ has been added as a possible letter, and the remaining letter is ‘’Y’ based on the available letters.
+WAFER
+Reason: 'A' is confirmed, and 'E' is confirmed. I'm focusing on the remaining letters and trying to fit them into the remaining spots.
+Error: AI did not return a valid guess
+BRAVE
+Reason: The ‘E’ and ‘V’ are correct, and ‘R’ is in the correct position.
+Error: AI did not return a valid guess
+SHARE
+Reason: The feedback indicates ‘A’ and ‘R’ are in the correct positions. The remaining letters are Q, W, D, G, J, K, L, M, N, O, P, U, V, X, Y, Z
+Average game completion: 2.0 / 5
+Average tries: 5.6
+Average success: 0.2
+
+Starting run 6
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common word with frequent letters.
+CHOKE
+
+Reason: All letters are incorrect based on the feedback.
+JUICE
+Reason: The ‘H’ was incorrect, and ‘O’ was incorrect.
+WHUDS
+Reason: U is in the correct position, H is present, and I’m using the remaining letters to create a word.
+SPYEU
+Reason: U is correct in the correct position, Y is present, and S, U, and E are correct letters.
+STUDY
+Reason: U is correct from the previous guess and S, D, and Y are present in the word but in the incorrect positions.
+Error: AI did not return a valid guess
+SHOUT
+Reason: U is present and in the correct spot, and E is present.
+SHUPO
+Reason: Considering the remaining valid letters and feedback, I'm trying to place ‘’ in the last spot, utilizing the remaining valid letters.
+SHUFP
+Reason: Considering the feedback, ‘H’, ‘U’, and ‘P’ are present in the word.
+WHUMP
+Reason: I know ‘U’ and ‘P’ are in the word.
+Average game completion: 1.0 / 5
+Average tries: 5.666666666666667
+Average success: 0.16666666666666666
+
+Starting run 7
+Okay, let’s begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common and relatively frequent word.
+
+SHARK
+Reason: The “K” was correct in the correct spot.
+Error: AI did not return a valid guess
+FAULT
+Reason: The 'A' is present and in the correct spot.
+Error: AI did not return a valid guess
+LAYOUT
+
+Reason: The ‘L’ is confirmed to be in the correct spot, and ‘T’ is in the correct spot. I’m attempting to fill the remaining spots with common letters.
+WAITO
+
+Reason: With the new feedback, 'A' and 'L' are confirmed to be in the word. Considering the remaining valid letters and the placement of 'O', WAITO seems like a plausible solution.
+FAULT
+Reason: 'A' and 'L' are confirmed to be in the word based on previous feedback. 'T' is confirmed as the last letter.
+NOTES
+The 'O' is present, 'T' is present, 'S' is present, and 'A' is present.
+Average game completion: 1.0833333333333333 / 5
+Average tries: 5.714285714285714
+Average success: 0.14285714285714285
+
+Starting run 8
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common word with frequent letters.
+
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+TROVE
+Reason: T and R are correct in the correct positions. O and E are present in the word but in incorrect spots.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+ROTATE
+Reason: The 'E' was present in the word, and 'T' and 'R' were in the correct positions. This suggests the letters were in the word, but in a different order.
+Error: AI did not return a valid guess
+RETIE
+Reason: The ‘R’ and ‘E’ are correct, and ‘T’ is present, so I’m focusing on common letter combinations and words that fit the pattern.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+REPORT
+Reason: The ‘R’ and ‘T’ are correct based on previous feedback. ‘E’ is present but not in the correct position. ‘Y’ and ‘P’ are present in the word but not in the correct positions.
+TREES
+Reason: T is correct, R is correct, E is present, and S is present.
+Average game completion: 2.1666666666666665 / 5
+Average tries: 5.75
+Average success: 0.125
+
+Starting run 9
+Okay, let's start.
+
+My first guess is: **TRAIN**
+
+Reason: A common and relatively frequent word, covering many vowels and consonants.
+
+STATE
+Reason: The 'A' was confirmed to be in the correct position, and 'T' was correct.
+STATE
+Reason: The 'A' and 'E' are present, and 'T' is in the correct spot.
+POWER
+Reason: The ‘O’ and ‘E’ are present, and the ‘T’ is in the correct spot.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+VALUE
+Reason: The feedback confirmed 'V', 'U', and 'E' were present, and 'T' was in the correct position.
+STATE
+Reason: The 'A' and 'E' are present and in the correct positions.
+Average game completion: 1.25 / 5
+Average tries: 5.777777777777778
+Average success: 0.1111111111111111
+
+Starting run 10
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common 5-letter word with frequent letters.
+
+CHOKE
+
+Reason: I eliminated all the letters from my initial guess and started with a completely new set of letters.
+SPYLO
+Reason: I’m focusing on common letters and a plausible word structure, given the remaining available letters.
+PROOF
+Reason: I’m sticking with the ‘O’ and building a word with the remaining letters.
+FUZZY
+Reason: The ‘U’ is present and in the correct spot, and I’m trying to incorporate common letters and sounds based on the previous feedback.
+Error: AI did not return a valid guess
+SYMBOL
+Reason: With the final feedback, I’ve narrowed down the possibilities significantly, focusing on the known letters ‘O’ and ‘Y’ and using the remaining valid letters to create a plausible word.
+YOLTO
+Reason: ‘Y’ is present, ‘O’ is present.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+WOLLY
+Reason: The ‘O’ is present and in the correct position. ‘L’ is present but not in the correct spot.
+Average game completion: 0.8333333333333334 / 5
+Average tries: 5.8
+Average success: 0.1
+
+Starting run 11
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common and relatively frequent word.
+
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+WANED
+
+Reason: ‘A’ is confirmed to be in the word. ‘I’ is in the correct spot. ‘N’ is confirmed to be in the word and in the correct spot.
+Error: AI did not return a valid guess
+SPIKY
+Reason: The ‘A’ and ‘N’ are present and in the correct positions, and the ‘I’ is present but not in the correct spot.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+JOINT
+Reason: ‘O’ is present, ‘I’ is correct and in the correct spot, ‘N’ is present, and ‘A’ is present.
+Error: AI did not return a valid guess
+SHINE
+Reason: I have N and I present, and I need to find the remaining letters.
+QUIFF
+Reason: ‘I’ and ‘N’ are correct and in the correct positions, ‘A’ is present in the word.
+Average game completion: 1.0 / 5
+Average tries: 5.818181818181818
+Average success: 0.09090909090909091
+
+Starting run 12
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common and relatively frequent word.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+REPORT
+Reason: ‘R’ is correct in the first position, ‘O’ is present in the word but not in the second position, ‘P’ is present in the word but not in the third position, ‘T’ is correct in the last position, and ‘R’ is present in the word.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+REPORT
+Reason: The ‘T’ is in the correct place from the third guess. The ‘R’ is in the correct position from the second guess. The ‘O’ is in the correct spot from the fourth guess. I'm now working to find the final letter.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+TARGET: RETIN
+Reason: With the feedback, I know 'E' is in the correct spot, 'R' is in the correct spot, and 'T' is in the correct spot. I'm left with A, I, O, and Y to try and place.
+QUERY
+
+Reason: Given the remaining letters and constraints, I’m constructing a word with frequent letter combinations, prioritizing ‘T’ and ‘E’’s placement.
+TROVE
+Reason: I’m holding onto ‘T’ and ‘R’ in their correct positions, and ‘E’ is present. The remaining letters need to fill in the blanks.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+WORTH
+Reason: Considering the remaining valid letters and the previous feedback, I’m prioritizing ‘O’ and ‘T’ while eliminating the incorrect letters.
+Average game completion: 1.5 / 5
+Average tries: 5.833333333333333
+Average success: 0.08333333333333333
+
+Starting run 13
+Okay, let's begin.
+
+My first guess is: **TRAIN**
+
+Reason: A common and relatively frequent word.
+
+NORTH
+Reason: N is in the correct spot, and we have narrowed down the remaining letters.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+UNTOP
+
+Reason: Given the remaining valid letters and the confirmed presence of ‘N’ and ‘T’, I had to focus on finding a 5-letter word that included those letters and utilized the valid options. Considering the previous attempts, 'UNTOP' was the most plausible solution within the given constraints.
+NOTES
+Reason: ‘N’ is confirmed as present. ‘O’ is not present. ‘E’ is not present. ‘R’ is not present. ‘T’ is confirmed as present. ‘I’ is incorrect. ‘G’ is incorrect. ‘C’ is incorrect. ‘D’ is incorrect. ‘F’ is incorrect. ‘H’ is incorrect. ‘J’ is incorrect. ‘K’ is incorrect. ‘L’ is incorrect. ‘M’ is incorrect. ‘S’ is a possible letter. ‘U’ is a possible letter. ‘V’ is a possible letter. ‘W’ is a possible letter. ‘X’ is a possible letter. ‘Y’ is a possible letter. ‘Z’ is a possible letter.
+WOMAN
+
+Reason: The feedback indicated 'O' and 'N' are in the word. The ‘W’ and ‘U’ are present but not in correct spot.
+FOUND
+Reason: F, O, N, and D are present.
+QUOTE
+Reason: The 'O' and 'U' are present and in the correct positions.
+Average game completion: 1.4166666666666667 / 5
+Average tries: 5.846153846153846
+Average success: 0.07692307692307693
+
+Starting run 14
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: A common word with frequent letters.
+
+NAUSE
+Reason: ‘A’ and ‘N’ are in the correct positions. ‘E’ is present but not in the correct spot, and ‘S’ and ‘T’ are incorrect.
+PAINT
+Reason: The 'A' and 'N' are correct from the previous feedback, and 'T' is confirmed to be in the word. I've shifted the 'R' to the second position.
+NAIVE
+Reason: With 'A', 'N', and 'E' confirmed, and 'I' and 'T' incorrect, the only remaining letter that could fill the first position is 'N'.
+SNACK
+Reason: 'A' is present, 'N' is present, and 'C' is present.
+FOUND
+Reason: The ‘N’ and ‘O’ are correct positions, ‘A’ is present, and ‘I’ and ‘N’ were confirmed.
+ANOTE
+Reason: The feedback indicated ‘A’ is present, and ‘N’ is in the correct spot.
+WANED
+Reason: Based on previous feedback, ‘A’ and ‘N’ are confirmed, ‘O’ was previously present, and ‘T’ was previously correct.
+Average game completion: 1.5 / 5
+Average tries: 5.857142857142857
+Average success: 0.07142857142857142
+
+Starting run 15
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word with frequent letters, offering a good starting point.
+STEAM
+Reason: The ‘A’ is in the correct position, ‘I’ is in the correct position, and ‘T’ is present but not in the correct position.
+WAITS
+Reason: I retained the 'I' and 'T' from previous feedback. 'A' is present but not in the correct spot. 'S' and 'R' were incorrect.
+TATTY
+Reason: The feedback indicated 'T' and 'A' were present. Considering the limited valid letters and the need for a 5-letter word, I selected 'TATTY' as a possible solution.
+POSIT
+Reason: ‘I’ and ‘S’ are confirmed present based on prior feedback. ‘T’ is confirmed present. ‘O’ is the only remaining letter and must occupy the final spot.
+AUDIO
+
+Reason: I knew ‘I’ and ‘A’ were in the word.
+Average game completion: 1.6666666666666667 / 5
+Average tries: 5.866666666666666
+Average success: 0.06666666666666667
+
+Starting run 16
+Okay, let’s begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word with frequent letters, giving me a good starting point.
+INTER
+Reason: Adding 'S' based on the feedback, and 'I' is now confirmed to be present.
+Error: AI did not return a valid guess
+QUERY
+Reason: The feedback indicated 'I' and 'N' are present, and 'N' is in the correct spot.
+SPINE
+Reason: I and N are present, and the word must be 5 letters long.
+Error: AI did not return a valid guess
+WIRED
+Reason: The 'I' and 'E' are present and in the correct positions, and 'N' is present.
+Error: AI did not return a valid guess
+LOZEN
+Reason: I have ‘I’ and ‘E’ in the correct positions, ‘N’ is present, and ‘E’ is present. The remaining letters are O, F, H, J, K, L, C, V, M.
+Average game completion: 1.3333333333333333 / 5
+Average tries: 5.875
+Average success: 0.0625
+
+Starting run 17
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common 5-letter word with frequent letters, giving me a good starting point.
+SWEET
+Reason: The 'T' is still correct. 'N' was incorrect, and 'R', 'A', 'I', and 'S' are also incorrect. ‘E’ must be in the word because I have eliminated every other letter.
+SOUTH
+Reason: The 'T' is in the correct position from the previous feedback. 'U' is present in the word, but not in the correct spot.
+SHOTS
+Reason: The feedback indicated ‘O’ and ‘T’ were present in the correct positions. The word must contain O, T, and doesn’t contain A, E, I, H, S, R, U, or P.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+HOSTS
+Reason: Considering the remaining feedback, I am now attempting to finalize the word.
+Error: AI did not return a valid guess
+Error: AI did not return a valid guess
+SHOTS
+Reason: The word is SHOTS.
+Average game completion: 2.6666666666666665 / 5
+Average tries: 5.882352941176471
+Average success: 0.058823529411764705
+
+Starting run 18
+Okay, let's begin!
+
+My first guess is: **CRANE**
+
+Reason: This is a common 5-letter word and a reasonable starting point.
+SHINE
+Reason: The 'E' is correct and in the correct position. ‘S’, ‘H’, ‘I’, and ‘N’ are present in the word but not in the correct positions. I’m focusing on the remaining letters and the known correct placement.
+BEIGE
+Reason: The ‘E’ and ‘I’ from previous guesses are still present, and ‘E’ was correct. I’m adding ‘B’, ‘G’, and ‘E’ to the word based on the new feedback.
+SPIKE
+Reason: The ‘I’ and ‘E’ are correct and in the correct positions. ‘G’ is present in the word.
+JOVEN
+Reason: The ‘I’ and ‘E’ are correct and in the correct positions. The ‘G’ is present in the word, so I’m placing it in the last spot.
+WRITE
+Reason: The 'I' and 'E' are confirmed correct positions from previous feedback. 'G' is present in the word.
+JOVEL
+Reason: The 'Y' is correct and in the correct position, the 'I' is correct and in the correct position, and 'G' is present in the word.
+JUICE
+Reason: The ‘E’ is in the correct position, ‘I’ is present, and ‘E’ is present.
+Average game completion: 1.9166666666666667 / 5
+Average tries: 5.888888888888889
+Average success: 0.05555555555555555
+
+Starting run 19
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word and includes several frequently used letters.
+WANED
+Reason: The 'A' was confirmed in the correct position, and 'N' was present but not in the correct position. The ‘N’ was present but not in the correct spot.
+SANFU
+Reason: ‘A’ and ‘N’ are confirmed to be in the word. ‘E’ was incorrect, and ‘R’ was incorrect. I'm trying to build upon the known letters and positions.
+FUELS
+
+Reason: Given 'N' confirmed and 'E' and 'A' in place, I needed to fill in the remaining spots. Considering the available letters and the negative feedback, 'S' and 'H' seemed the most likely. I chose FUELS to fulfill these criteria.
+PLANE
+Reason: ‘N’ is present and in the correct spot. ‘E’ is present and in the correct spot.
+Error: AI did not return a valid guess
+BYTES
+
+Reason: The ‘Y’ is present and in the correct position, ‘E’ is present and in the correct position, and ‘N’ is present and in the correct position.
+ANYED
+Reason: Considering the confirmed presence of ‘Y’ and ‘E’, I prioritized the placement of ‘A’ and selected ‘N’ to complete the word.
+QUERY
+Average game completion: 1.4166666666666667 / 5
+Average tries: 5.894736842105263
+Average success: 0.05263157894736842
+
+Starting run 20
+Okay, let's begin!
+
+My first guess is: **TRAIN**
+
+Reason: This is a common word with several frequent letters, offering a good starting point.
+Error: AI did not return a valid guess
+MENUS
+Reason: The 'N' was correct and in the correct position.
+BONDS
+Reason: The ‘N’ was confirmed to be in the correct position, ‘D’ was present but not in the correct spot, and ‘O’ was incorrect. I then chose ‘B’ and ‘S’ as the remaining letters.
+PHONYTS
+Reason: The ‘N’, ‘O’, and ‘S’ are confirmed. The ‘Y’ is not a possible letter. The only remaining valid letter is ‘T’, and it must occupy the final spot to complete the word.
+SHOWN
+Reason: The remaining letters are Q, F, G, J, K, L, T, U, V, W, X, Y, Z. Given the feedback from previous guesses, the word must contain the letters O, N, and S. I chose this word based on the presence of N and S, and the possibility of the letter O.
+Error: AI did not return a valid guess
+NOTES
+
+Reason: The feedback indicated ‘N’ and ‘S’ are present in the word and ‘N’ and ‘S’ are in the correct position.
+Average game completion: 1.4166666666666667 / 5
+Average tries: 5.9
+Average success: 0.05
+
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mgpt-4.1-10-retries[0m at: [34m[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20251006_110741-wf1b74f7/logs[0m
+
+max_calls=1
+Waiting 5s before next run...
+
+
+max_calls=3
+Waiting 5s before next run...
+
+
+max_calls=5
+Waiting 5s before next run...
+
+
+max_calls=10
+Waiting 5s before next run...
+
+All benchmarks completed!
