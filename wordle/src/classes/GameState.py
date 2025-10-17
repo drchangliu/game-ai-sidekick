@@ -43,7 +43,7 @@ class GameState:
         self.db: firestore.Client | None = None
 
         self.api_key_valid: bool = True
-
+        
         if logging:
             try:
                 initialize_firebase()
@@ -78,6 +78,8 @@ class GameState:
         self.was_valid_guess = False
 
         self.llm_platform = LLM_PLATFORM
+        
+        
         self.ai_client: OpenAI | None = None
         if self.llm_platform == "openai":
             try:
@@ -87,6 +89,16 @@ class GameState:
                 self.api_key_valid = True
             except OpenAIError:
                 self.api_key_valid = False
+        elif self.llm_platform == "openrouter":
+            try:
+                self.ai_client = OpenAI(
+                    base_url="https://openrouter.ai/api/v1",
+                    api_key=os.getenv("OPENROUTER_API_KEY", default="")
+                )
+                self.api_key_valid = True
+            except OpenAIError:
+                self.api_key_valid = False
+        
         elif self.llm_platform == "openrouter":
             try:
                 self.ai_client = OpenAI(
@@ -106,6 +118,7 @@ class GameState:
                 self.api_key_valid = True
             except:
                 self.api_key_valid = False
+        
         # Grok platform (uses OpenRouter API with Grok models, separate API key)
         self.grok_key: str | None = None
         self.grok_model: str | None = None
@@ -119,9 +132,18 @@ class GameState:
                     self.api_key_valid = False
             except:
                 self.api_key_valid = False
-        elif self.llm_platform == "ollama":
-            self.api_key_valid = True
-
+        
+        self.deepseek_client: OpenAI | None = None
+        if self.llm_platform == "deepseek":
+            try:
+                self.deepseek_client = OpenAI(
+                    api_key=os.getenv("DEEPSEEK_API_KEY", default=""),
+                    base_url="https://api.deepseek.com"
+                )
+                self.api_key_valid = True
+            except OpenAIError:
+                self.api_key_valid = False
+    
         if self.llm_platform == "ollama":
             self.api_key_valid = True
 
@@ -304,6 +326,57 @@ class GameState:
                 org_response = str(
                     completion.choices[0].message.content
                 )
+                
+            elif self.llm_platform == "openrouter":
+                if not self.ai_client:
+                    return
+
+                completion = self.ai_client.chat.completions.create(
+                    extra_headers={
+                        "HTTP-Referer": "https://github.com/tm033520/game-ai-sidekick",
+                        "X-Title": "Wordle AI Sidekick",
+                    },
+                    extra_body={},
+                    model=OPENROUTER_MODEL,
+                    messages=messages,
+                )
+                org_response = str(
+                    completion.choices[0].message.content
+                )
+                
+            elif self.llm_platform == "grok":
+                if not self.grok_key:
+                    return
+                    
+                headers = {
+                    "Authorization": f"Bearer {self.grok_key}",
+                    "Content-Type": "application/json",
+                    "HTTP-Referer": "https://github.com/tm033520/game-ai-sidekick",
+                    "X-Title": "Wordle AI Sidekick"
+                }
+                payload = {
+                    "model": self.grok_model,
+                    "messages": messages,
+                    "max_tokens": 50,
+                    "temperature": 0.3
+                }
+                r = requests.post("https://openrouter.ai/api/v1/chat/completions",
+                                headers=headers, json=payload, timeout=60)
+                r.raise_for_status()
+                data = r.json()
+                org_response = data["choices"][0]["message"]["content"]
+
+            elif self.llm_platform == "deepseek":
+                if not self.deepseek_client:
+                    return
+
+                completion = self.deepseek_client.chat.completions.create(
+                    model=DEEPSEEK_MODEL,
+                    messages=messages,
+                )
+                org_response = str(
+                    completion.choices[0].message.content
+                )
 
             elif self.llm_platform == "openrouter":
                 if not self.ai_client:
@@ -425,8 +498,11 @@ class GameState:
                 self.api_key_valid = bool(self.grok_key)
             elif llm == "ollama":
                 self.api_key_valid = True
-
-            elif llm == "ollama":
+            elif llm == "deepseek":
+                self.deepseek_client = OpenAI(
+                    api_key=os.getenv("DEEPSEEK_API_KEY", default=""),
+                    base_url="https://api.deepseek.com"
+                )
                 self.api_key_valid = True
         except:
             self.api_key_valid = False
