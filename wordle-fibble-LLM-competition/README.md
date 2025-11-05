@@ -5,6 +5,7 @@ Use any LLMs to help solve the Wordle (6 tries) or the Fibble (9 tries, with 1, 
 Here are two examples of how ChatGPT helps solve the Fibble probelm.
 * https://chatgpt.com/share/690a84e3-5df8-8001-ac9e-799ac4350f25
 * https://chatgpt.com/share/690a60fd-302c-800b-94dc-64addd79beb7
+  
 Note that your submission must use LLMs to solve Wordle/Fibble via programs, not through human-in-the-loop manual chats with an LLM chatbot.
 
 Metrics:
@@ -22,6 +23,7 @@ You can use the [headstart code provided in this repo](https://github.com/drchan
 The use of LLMs in planning, coding, debugging, testing, and prompt generating/adjustment is encourage. Just make sure all usage is documented in the README.md file.
 
 Submission: https://docs.google.com/forms/d/e/1FAIpQLSd3_25EQeDTSQkmms8wj5FSQQ4SkOoo7Cyzr9EDUZRcSf2rrg/viewform?usp=header 
+
 
 
 
