@@ -68,7 +68,7 @@ OPENROUTER_MODEL = "nvidia/nemotron-nano-9b-v2:free"
 # export OPENROUTER_API_KEY="sk-or-v1-your-key-here"
 # Get your API key at: https://openrouter.ai/keys
 
-LLM_MODEL: ChatModel = "gpt-4.1"
+LLM_MODEL: ChatModel = "gpt-5"
 OLLAMA_MODEL = "gemma3:latest"
 MAX_LLM_CONTINUOUS_CALLS = 5
 
