@@ -24,6 +24,9 @@ The use of LLMs in planning, coding, debugging, testing, and prompt generating/a
 
 Submission: https://docs.google.com/forms/d/e/1FAIpQLSd3_25EQeDTSQkmms8wj5FSQQ4SkOoo7Cyzr9EDUZRcSf2rrg/viewform?usp=header 
 
+Deadline: Round 1: December 9, 2025. End of the Day. Anywhere on Earth.
+
+
 
 
 
