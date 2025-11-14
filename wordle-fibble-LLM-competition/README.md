@@ -5,6 +5,7 @@ Use any LLMs to help solve the Wordle (6 tries) or the Fibble (9 tries, with 1, 
 Here are two examples of how ChatGPT helps solve the Fibble probelm.
 ### Example 1
 <img width="134" height="274" alt="Screenshot 2025-11-04 at 5 58 44 PM" src="https://github.com/user-attachments/assets/523c979b-30ba-4cbd-8690-72749b6f91cb" />
+
 * https://chatgpt.com/share/690a84e3-5df8-8001-ac9e-799ac4350f25
 
 ### Example 2
@@ -31,6 +32,7 @@ https://docs.google.com/forms/d/e/1FAIpQLSd3_25EQeDTSQkmms8wj5FSQQ4SkOoo7Cyzr9ED
 
 ### Deadline: 
 * Round 1: December 9, 2025. End of the Day. Anywhere on Earth.
+
 
 
 
