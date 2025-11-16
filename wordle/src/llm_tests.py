@@ -111,6 +111,11 @@ def run_game(game: GameState, run_id: int, total_tries: int, total_success: int,
 
 def test_games():
     game = GameState(show_window=False, logging=False)
+
+    # set to 1 lie and 9 guesses for fibble, else it will play wordle
+    # game.num_lies = 1
+    # game.num_guesses = 9
+
     total_success = 0
     total_tries = 0
     total_bad_guesses = 0

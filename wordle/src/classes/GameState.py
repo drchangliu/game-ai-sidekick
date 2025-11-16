@@ -319,10 +319,17 @@ class GameState:
                 if not self.ai_client:
                     return
 
-                completion = self.ai_client.chat.completions.create(
-                    model=LLM_MODEL,
-                    messages=messages,
-                )
+                if "gpt-5" in LLM_MODEL:
+                    completion = self.ai_client.chat.completions.create(
+                        model=LLM_MODEL,
+                        messages=messages,
+                        reasoning_effort="low",
+                    )
+                else:
+                    completion = self.ai_client.chat.completions.create(
+                        model=LLM_MODEL,
+                        messages=messages,
+                    )
                 org_response = str(
                     completion.choices[0].message.content
                 )
@@ -457,10 +464,12 @@ class GameState:
                     })
                     self.enter_word_from_solver(
                         completion_message, check=(not self.show_window))
+                    self.ai_loading = False
                     return calls + 1
             else:
                 self.was_valid_guess = False
                 print("Error: AI did not return a valid guess")
+                self.ai_loading = False
                 return -1
 
         except Exception as e:
