@@ -43,7 +43,7 @@ class GameState:
         self.db: firestore.Client | None = None
 
         self.api_key_valid: bool = True
-        
+
         if logging:
             try:
                 initialize_firebase()
@@ -78,8 +78,7 @@ class GameState:
         self.was_valid_guess = False
 
         self.llm_platform = LLM_PLATFORM
-        
-        
+
         self.ai_client: OpenAI | None = None
         if self.llm_platform == "openai":
             try:
@@ -98,7 +97,7 @@ class GameState:
                 self.api_key_valid = True
             except OpenAIError:
                 self.api_key_valid = False
-        
+
         elif self.llm_platform == "openrouter":
             try:
                 self.ai_client = OpenAI(
@@ -118,21 +117,22 @@ class GameState:
                 self.api_key_valid = True
             except:
                 self.api_key_valid = False
-        
+
         # Grok platform (uses OpenRouter API with Grok models, separate API key)
         self.grok_key: str | None = None
         self.grok_model: str | None = None
         if self.llm_platform == "grok":
             try:
                 self.grok_key = os.getenv("GROK_API_KEY", "")
-                self.grok_model = os.getenv("GROK_MODEL", "x-ai/grok-4-fast:free")
+                self.grok_model = os.getenv(
+                    "GROK_MODEL", "x-ai/grok-4-fast:free")
                 if self.grok_key:
                     self.api_key_valid = True
                 else:
                     self.api_key_valid = False
             except:
                 self.api_key_valid = False
-        
+
         self.deepseek_client: OpenAI | None = None
         if self.llm_platform == "deepseek":
             try:
@@ -143,7 +143,7 @@ class GameState:
                 self.api_key_valid = True
             except OpenAIError:
                 self.api_key_valid = False
-    
+
         if self.llm_platform == "ollama":
             self.api_key_valid = True
 
@@ -285,7 +285,7 @@ class GameState:
         if letters_to_add == WORD_LENGTH and check:
             self.handle_check_word()
 
-    def enter_word_from_ai(self, messages: list[ChatCompletionMessageParam] | None = None, calls: int = 0):
+    def enter_word_from_ai(self, messages: list[ChatCompletionMessageParam] | None = None, calls: int = 0) -> int:
         self.ai_loading = True
 
         try:
@@ -319,14 +319,21 @@ class GameState:
                 if not self.ai_client:
                     return
 
-                completion = self.ai_client.chat.completions.create(
-                    model=LLM_MODEL,
-                    messages=messages,
-                )
+                if "gpt-5" in LLM_MODEL:
+                    completion = self.ai_client.chat.completions.create(
+                        model=LLM_MODEL,
+                        messages=messages,
+                        reasoning_effort="low",
+                    )
+                else:
+                    completion = self.ai_client.chat.completions.create(
+                        model=LLM_MODEL,
+                        messages=messages,
+                    )
                 org_response = str(
                     completion.choices[0].message.content
                 )
-                
+
             elif self.llm_platform == "openrouter":
                 if not self.ai_client:
                     return
@@ -343,11 +350,11 @@ class GameState:
                 org_response = str(
                     completion.choices[0].message.content
                 )
-                
+
             elif self.llm_platform == "grok":
                 if not self.grok_key:
                     return
-                    
+
                 headers = {
                     "Authorization": f"Bearer {self.grok_key}",
                     "Content-Type": "application/json",
@@ -361,7 +368,7 @@ class GameState:
                     "temperature": 0.3
                 }
                 r = requests.post("https://openrouter.ai/api/v1/chat/completions",
-                                headers=headers, json=payload, timeout=60)
+                                  headers=headers, json=payload, timeout=60)
                 r.raise_for_status()
                 data = r.json()
                 org_response = data["choices"][0]["message"]["content"]
@@ -397,7 +404,7 @@ class GameState:
             elif self.llm_platform == "grok":
                 if not self.grok_key:
                     return
-                    
+
                 headers = {
                     "Authorization": f"Bearer {self.grok_key}",
                     "Content-Type": "application/json",
@@ -411,7 +418,7 @@ class GameState:
                     "temperature": 0.3
                 }
                 r = requests.post("https://openrouter.ai/api/v1/chat/completions",
-                                headers=headers, json=payload, timeout=60)
+                                  headers=headers, json=payload, timeout=60)
                 r.raise_for_status()
                 data = r.json()
                 org_response = data["choices"][0]["message"]["content"]
@@ -439,12 +446,13 @@ class GameState:
             if len(completion_message) == WORD_LENGTH:
                 reasons = self.solver.reason_guess(completion_message)
                 messages.append({"role": "assistant", "content": org_response})
+                print(org_response)
 
                 if len(reasons) > 0 and calls < MAX_LLM_CONTINUOUS_CALLS and self.num_lies == 0:
                     messages.append(generate_guess_reasoning(reasons))
-                    self.enter_word_from_ai(messages, calls + 1)
+                    print(messages[-1]["content"])
+                    return self.enter_word_from_ai(messages, calls + 1)
                 else:
-                    print(org_response)
                     self.total_llm_guesses.append({
                         "guess": completion_message.upper(),
                         "retries": calls,
@@ -456,11 +464,16 @@ class GameState:
                     })
                     self.enter_word_from_solver(
                         completion_message, check=(not self.show_window))
+                    self.ai_loading = False
+                    return calls + 1
             else:
                 self.was_valid_guess = False
                 print("Error: AI did not return a valid guess")
+                self.ai_loading = False
+                return -1
 
         except Exception as e:
+            self.was_valid_guess = False
             self.error_message = str(e)
             self.error_message_visible = True
             Timer(ERROR_MESSAGE_VISIBLE_TIME, lambda: setattr(
@@ -471,6 +484,7 @@ class GameState:
                 raise e
 
         self.ai_loading = False
+        return -1
 
     def set_llm_platform(self, llm: str):
         self.api_key_valid = True  # reset api key valid
@@ -494,7 +508,8 @@ class GameState:
                 self.api_key_valid = True
             elif llm == "grok":
                 self.grok_key = os.getenv("GROK_API_KEY", "")
-                self.grok_model = os.getenv("GROK_MODEL", "x-ai/grok-4-fast:free")
+                self.grok_model = os.getenv(
+                    "GROK_MODEL", "x-ai/grok-4-fast:free")
                 self.api_key_valid = bool(self.grok_key)
             elif llm == "ollama":
                 self.api_key_valid = True

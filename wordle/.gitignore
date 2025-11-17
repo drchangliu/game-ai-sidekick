@@ -130,3 +130,6 @@ html/
 wandb/
 llm_chat_log.txt
 fb_env.py
+
+# benchmarks
+benchmarks/

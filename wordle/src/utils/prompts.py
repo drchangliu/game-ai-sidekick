@@ -28,10 +28,26 @@ def generate_messages(guesses: list[str], feedback: list[list[Feedback]], num_li
 
     messages.append(default_prompt)
 
-    if num_lies > 0:
+    if num_lies == 5:
         messages.append({
             "role": "user",
-            "content": f"There are {num_lies} lies in this word."
+            "content": f"There are {num_lies} lies in this word. "
+            "IMPORTANT: Since there are 5 lies and the word has 5 letter positions, "
+            "this means that every position's feedback is a lie—every single feedback you receive is false. "
+            "To detect which feedback is a lie, try guessing words that have the same letters in the same positions as previous guesses. "
+            "If the feedback changes for those same letters in those same positions, that feedback was a lie. "
+            "Once you detect a lie through changing feedback, treat that as a confirmed fact and use it to inform all future guesses in that position. "
+            "REMEMBER: The lies are always in the same position for all guesses!"
+        })
+    elif num_lies > 0:
+        messages.append({
+            "role": "user",
+            "content": f"There are {num_lies} lies in this word. "
+            "IMPORTANT: To detect which feedback is a lie, try guessing words that have the same letters "
+            "in the same positions as previous guesses. If the feedback changes for those same letters "
+            "in those same positions, that feedback was a lie. Once you detect a lie through changing feedback, "
+            "treat that as a confirmed fact and use it to inform all future guesses in that position. "
+            "REMEMBER: The lies are always in the same position for all guesses!"
         })
 
     for guess, fb in zip(guesses, feedback):
