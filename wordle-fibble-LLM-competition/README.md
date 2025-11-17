@@ -33,6 +33,15 @@ https://docs.google.com/forms/d/e/1FAIpQLSd3_25EQeDTSQkmms8wj5FSQQ4SkOoo7Cyzr9ED
 ### Deadline: 
 * Round 1: December 9, 2025. End of the Day. Anywhere on Earth.
 
+### Current Best Result:
+
+Open AI GPT-5 with low reasoning achieved the following win rates
+* fibble1 - Win Rate: 100% in 10 games, Avg Tries: 5.9
+* fibble2 - Win Rate: 100% in 10 games, Avg Tries: 6.5
+* fibble3 - Win Rate: 70% in 10 games, Avg Tries: 7.5
+* fibble4 - Win Rate: 0% in 10 games, Avg Tries: 9.0
+* fibble5 - Win Rate: 90% in 10 games, Avg Tries: 6.9
+
 
 
 
