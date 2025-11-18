@@ -25,7 +25,7 @@ When the win rates are the same, the one with fewer guesses wins.
 
 You can use the [headstart code provided in this repo](https://github.com/drchangliu/game-ai-sidekick/blob/main/wordle/src/llm_tests.py), or the OCaml headstart code provided in CS3200.
 
-The use of LLMs in planning, coding, debugging, testing, and prompt generating/adjustment is encourage. Just make sure all usage is documented in the README.md file.
+The use of LLMs in planning, coding, debugging, testing, and prompt generating/adjustment is encouraged. Just make sure all usage is documented in the README.md file.
 
 ### Submission: 
 https://docs.google.com/forms/d/e/1FAIpQLSd3_25EQeDTSQkmms8wj5FSQQ4SkOoo7Cyzr9EDUZRcSf2rrg/viewform?usp=header 
@@ -43,6 +43,7 @@ OpenAI GPT-5 with low reasoning achieved the following win rates for the same-co
 * fibble3 - Win Rate: 70% in 10 games, Avg Tries: 7.5
 * fibble4 - Win Rate: 0% in 10 games, Avg Tries: 9.0
 * fibble5 - Win Rate: 90% in 10 games, Avg Tries: 6.9
+
 
 
 
