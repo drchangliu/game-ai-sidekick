@@ -1,6 +1,6 @@
 # Wordle/Fibble LLM Solver Competition
 
-Use any LLMs to help solve the Wordle (6 tries) or the Fibble (9 tries, with 1, 2, 3, 4, or 5 lies per guess) problems. Collect win rates and other metrics for 10 games for each commericial LLMs with API Key-based access and 1000 games for locally deployed LLMs. It is acceptable if you only have Wordle results or Fibble-with-one-lie results.
+Use any LLMs to help solve the Wordle (6 tries) or the Fibble (9 tries, with 1, 2, 3, 4, or 5 lies per guess) problems. Collect win rates and other metrics for 10 games for each commericial LLMs with API Key-based access and 20 games for locally deployed LLMs. It is acceptable if you only have Wordle results or Fibble-with-one-lie results.
 
 Here are two examples of how ChatGPT helps solve the original Fibble probelm.
 ### Example 1
@@ -49,6 +49,7 @@ OpenAI GPT-5 with low reasoning achieved the following win rates for the same-co
 Best Results for fibble-2 using Ollama gpt:oss 20b model:
 * 70% wins out of 10 games, with avg of 7.5 tries. average latency per guess: 292 seconds. 
  
+
 
 
 
