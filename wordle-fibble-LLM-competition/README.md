@@ -49,12 +49,14 @@ OpenAI GPT-5 with low reasoning achieved the following win rates for the same-co
 * fibble3 - Win Rate: 70% in 10 games, Avg Tries: 7.5
 * fibble4 - Win Rate: 0% in 10 games, Avg Tries: 9.0
 * fibble5 - Win Rate: 90% in 10 games, Avg Tries: 6.9
+  
 [Here](https://github.com/drchangliu/game-ai-sidekick/commit/711c79f5a9323ecf5529414425b06826ed9f5d5d)'s the pull request the contained the version of that code that achieved this result.
 
 ##### Best offline models:
 Best Results for fibble-2 using Ollama gpt:oss 20b model:
 * 70% wins out of 10 games, with avg of 7.5 tries. average latency per guess: 292 seconds. 
  
+
 
 
 
