@@ -33,16 +33,23 @@ https://docs.google.com/forms/d/e/1FAIpQLSd3_25EQeDTSQkmms8wj5FSQQ4SkOoo7Cyzr9ED
 ### Deadline: 
 * Round 1: December 9, 2025. End of the Day. Anywhere on Earth.
 
-### Current Best Result:
+### Current Best Results:
 
 Note that in the original Fibble, lies can be any column. In our current version of Python implementation, lies will always be in the same column, even though that's still randomly selected.
 
+##### Best online models:
 OpenAI GPT-5 with low reasoning achieved the following win rates for the same-column-lies version:
 * fibble1 - Win Rate: 100% in 10 games, Avg Tries: 5.9
 * fibble2 - Win Rate: 100% in 10 games, Avg Tries: 6.5
 * fibble3 - Win Rate: 70% in 10 games, Avg Tries: 7.5
 * fibble4 - Win Rate: 0% in 10 games, Avg Tries: 9.0
 * fibble5 - Win Rate: 90% in 10 games, Avg Tries: 6.9
+
+##### Best offline models:
+Best Results for fibble-2 using Ollama gpt:oss 20b model:
+* 70% wins out of 10 games, with avg of 7.5 tries. average latency per guess: 292 seconds. 
+ 
+
 
 
 
