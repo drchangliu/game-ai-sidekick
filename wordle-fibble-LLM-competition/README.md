@@ -27,15 +27,20 @@ You can use the [headstart code provided in this repo](https://github.com/drchan
 
 The use of LLMs in planning, coding, debugging, testing, and prompt generating/adjustment is encouraged. Just make sure all usage is documented in the README.md file.
 
+### Note on lie locations
+
+Original Fibble: Lies could appear in any column.
+
+Current Python Version: Lies are restricted to appearing in a single, randomly selected column for the entire puzzle.
+
 ### Submission: 
 https://docs.google.com/forms/d/e/1FAIpQLSd3_25EQeDTSQkmms8wj5FSQQ4SkOoo7Cyzr9EDUZRcSf2rrg/viewform?usp=header 
 
 ### Deadline: 
 * Round 1: December 9, 2025. End of the Day. Anywhere on Earth.
 
-### Current Best Results:
 
-Note that in the original Fibble, lies can be any column. In our current version of Python implementation, lies will always be in the same column, even though that's still randomly selected.
+### Current Best Results:
 
 ##### Best online models:
 OpenAI GPT-5 with low reasoning achieved the following win rates for the same-column-lies version:
@@ -44,11 +49,13 @@ OpenAI GPT-5 with low reasoning achieved the following win rates for the same-co
 * fibble3 - Win Rate: 70% in 10 games, Avg Tries: 7.5
 * fibble4 - Win Rate: 0% in 10 games, Avg Tries: 9.0
 * fibble5 - Win Rate: 90% in 10 games, Avg Tries: 6.9
+[Here](https://github.com/drchangliu/game-ai-sidekick/commit/711c79f5a9323ecf5529414425b06826ed9f5d5d)'s the pull request the contained the version of that code that achieved this result.
 
 ##### Best offline models:
 Best Results for fibble-2 using Ollama gpt:oss 20b model:
 * 70% wins out of 10 games, with avg of 7.5 tries. average latency per guess: 292 seconds. 
  
+
 
 
 
